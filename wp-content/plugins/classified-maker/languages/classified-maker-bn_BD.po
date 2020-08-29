@@ -1,0 +1,1240 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-09-20 19:34+0600\n"
+"PO-Revision-Date: 2017-09-21 00:40+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bn_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: templates\n"
+"X-Poedit-SearchPath-2: classified-maker.php\n"
+
+#: classified-maker.php:229
+msgid "Confirm"
+msgstr "নিশ্চিত করুন"
+
+#: includes/class-emails.php:52
+msgid "New Ads Submitted"
+msgstr "নতুন বিজ্ঞাপন জমা হয়েছে"
+
+#: includes/class-emails.php:53
+msgid "New Ads Submitted - {site_url}"
+msgstr "নতুন বিজ্ঞাপন জমা হয়েছে - {site_url}"
+
+#: includes/class-emails.php:58
+msgid "New Ads Published"
+msgstr "নতুন বিজ্ঞাপন প্রকাশ হয়েছে"
+
+#: includes/class-emails.php:59
+msgid "New Ads Published - {site_url}"
+msgstr "নতুন বিজ্ঞাপন প্রকাশ হয়েছে - {site_url}"
+
+#: includes/class-emails.php:64
+msgid "Ads Update"
+msgstr "বিজ্ঞাপন সম্পাদন করুন"
+
+#: includes/class-emails.php:65
+msgid "Ads Update - {site_url}"
+msgstr "বিজ্ঞাপন সম্পাদন করুন - {site_url}"
+
+#: includes/class-emails.php:83
+msgid "Site Parameters"
+msgstr "সাইট প্যারামিটার"
+
+#: includes/class-emails.php:88
+msgid "Users Parameters"
+msgstr "ব্যবহারকারী প্যারামিটার"
+
+#: includes/class-emails.php:93
+msgid "Ads Parameters"
+msgstr "প্যারামিটার যুক্ত করুন"
+
+#: includes/class-form.php:81 includes/class-form.php:90 includes/class-form.php:95
+#: includes/pickform/class-pickform.php:491 includes/pickform/class-pickform.php:503
+#: includes/pickform/class-pickform.php:513
+msgid "Remove"
+msgstr "মুছুন"
+
+#: includes/class-form.php:103 includes/class-form.php:347
+#: includes/pickform/class-pickform.php:520
+msgid "Add more"
+msgstr "যুক্ত করুন"
+
+#: includes/class-form.php:252 includes/class-form.php:489 includes/class-form.php:869
+msgid "filetype: (jpg, png, jpeg), max size: 200Mb"
+msgstr "ফাইল টাইপঃ (jpg, png, jpeg) সর্বচ্ছো সাইজঃ ২০০ মেগাবাইট"
+
+#: includes/class-form.php:252 includes/class-form.php:489 includes/class-form.php:869
+msgid "Upload"
+msgstr "আপলোড"
+
+#: includes/class-form.php:254 includes/class-form.php:491 includes/class-form.php:871
+#: includes/menu/field-set.php:81
+msgid "Reset"
+msgstr "রিসেট"
+
+#: includes/class-form.php:688
+msgid "Drop - files here"
+msgstr "এখানে ফাইল ফেলুন"
+
+#: includes/class-form.php:689 includes/pickform/class-pickform.php:755
+msgid "Select Files"
+msgstr "ফাইল নির্বাচন করুন"
+
+#: includes/class-form.php:709 includes/pickform/class-pickform.php:775
+msgid "Allowed Files"
+msgstr "সমর্থিত ফাইল"
+
+#: includes/class-functions.php:23
+msgid "Draft"
+msgstr "খসড়া"
+
+#: includes/class-functions.php:23
+msgid "Pending"
+msgstr "প্রতীক্ষমাণ"
+
+#: includes/class-functions.php:23
+msgid "Published"
+msgstr "প্রকাশিত"
+
+#: includes/class-functions.php:23
+msgid "Private"
+msgstr "ব্যক্তিগত"
+
+#: includes/class-functions.php:23
+msgid "Trash"
+msgstr "ট্রাশ"
+
+#: includes/class-functions.php:38
+msgid "Submit Ads"
+msgstr "বিজ্ঞাপন জমা দিন"
+
+#: includes/class-functions.php:44
+msgid "Edit Ads"
+msgstr "বিজ্ঞাপন সম্পাদনা করুন"
+
+#: includes/class-functions.php:50
+msgid "Dashboard"
+msgstr "ড্যাশবোর্ড"
+
+#: includes/class-functions.php:56
+msgid "Ads Archive"
+msgstr "বিজ্ঞাপন আর্কাইভ"
+
+#: includes/class-functions.php:76
+msgid "Classified Maker - How to install."
+msgstr "Classified Maker - কিভাবে ইন্সটল করবেন ।"
+
+#: includes/class-functions.php:82
+msgid "Classified Maker - Settings."
+msgstr "Classified Maker - সেটিংস"
+
+#: includes/class-functions.php:88
+msgid "Classified Maker - How to publish Ads."
+msgstr "Classified Maker - কিভাবে বিজ্ঞাপন প্রকাশ করবেন"
+
+#: includes/class-functions.php:93
+msgid "Classified Maker - How to edit Ads."
+msgstr "Classified Maker - কিভাবে বিজ্ঞাপন সম্পাদনা করবেন"
+
+#: includes/class-functions.php:123 includes/class-functions.php:476
+msgid "General"
+msgstr "সাধারন"
+
+#: includes/class-functions.php:132
+msgid "Contact Phone Number"
+msgstr "যোগাযোগ ফোন নাম্বার"
+
+#: includes/class-functions.php:133
+msgid ""
+"You can add multiple phone number, first number will display on ads page. you can "
+"sort number to change positions"
+msgstr ""
+"আপনি একের অধিক ফোন নাম্বার যোগ করতে পারনে, প্রথম নাম্বারটি বিগাপনে দেখাবে, আপনি চাইলে "
+"অবস্থা পরিবর্তন করতে পারেন"
+
+#: includes/class-functions.php:146 includes/class-functions.php:147
+msgid "Contact Email Address"
+msgstr "যোগাযোগ ইমেইল ঠিকানা"
+
+#: includes/class-functions.php:156 includes/class-functions.php:157
+#: includes/class-functions.php:987 includes/class-functions.php:1300
+msgid "Address"
+msgstr "ঠিকানা"
+
+#: includes/class-functions.php:187
+msgid "Click to see phone number"
+msgstr "ফোন নাম্বার দেখতে এইখানে ক্লিক করুন"
+
+#: includes/class-functions.php:194
+msgid "Send Email"
+msgstr "ইমেইল পাঠান"
+
+#: includes/class-functions.php:203
+msgid "Send email"
+msgstr "Send Email"
+
+#: includes/class-functions.php:239 includes/class-functions.php:356
+#: includes/class-functions.php:941 includes/class-functions.php:1276
+msgid "Location"
+msgstr "অবস্থান"
+
+#: includes/class-functions.php:279
+msgid "Negotiable"
+msgstr "আলোচনাসূত্রে"
+
+#: includes/class-functions.php:292 includes/class-functions.php:1023
+#: includes/class-functions.php:1341
+msgid "Price"
+msgstr "মূল্য"
+
+#: includes/class-functions.php:322
+msgid "Contact Seller"
+msgstr "বিক্রেতার সাথে যোগাযোগ করুন"
+
+#: includes/class-functions.php:378
+msgid "Share this ad"
+msgstr "বিজ্ঞাপনটি শেয়ার করুন"
+
+#: includes/class-functions.php:390 includes/class-post-types.php:24
+msgid "Report"
+msgstr "অভিযোগ"
+
+#: includes/class-functions.php:396
+msgid "Reason"
+msgstr "কারন"
+
+#: includes/class-functions.php:398
+msgid "Select a Reason"
+msgstr "কারন নির্বাচন করুন"
+
+#: includes/class-functions.php:409
+msgid "Your Message"
+msgstr "আপনার বার্তা"
+
+#: includes/class-functions.php:410
+msgid "Write something in details"
+msgstr "বিস্তারিত লিখুন"
+
+#: includes/class-functions.php:414
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:659
+#: includes/shortcodes/shortcodes-post-ads.php:713 templates/form/form-post-ads.php:87
+msgid "Submit"
+msgstr "জমা দিন"
+
+#: includes/class-functions.php:428
+msgid "Report This Ad"
+msgstr "এই বিজ্ঞাপনে অভিযোগ করুন"
+
+#: includes/class-functions.php:435
+msgid "Save"
+msgstr "সংরক্ষন"
+
+#: includes/class-functions.php:444
+msgid "Add to Wishlist"
+msgstr "পছন্দের তালিকায় যুক্ত করুন"
+
+#: includes/class-functions.php:485 includes/class-functions.php:486
+msgid "Post Per page"
+msgstr "প্রতি পৃষ্ঠা পোস্ট"
+
+#: includes/class-functions.php:495 includes/class-functions.php:496
+msgid "Excerpt word count"
+msgstr "সংক্ষিপ্ত শব্দ সংখ্যা"
+
+#: includes/class-functions.php:505
+msgid "Enable Report"
+msgstr "অভিযোগ সচল করুন"
+
+#: includes/class-functions.php:506
+msgid "Enable Report on Each Ads"
+msgstr "প্রত্যেক বিজ্ঞাপনে অভিযোগ সচল করুন"
+
+#: includes/class-functions.php:509 includes/class-functions.php:589
+#: includes/class-functions.php:600 includes/class-functions.php:611
+#: includes/class-functions.php:714 includes/class-functions.php:769
+#: includes/class-functions.php:781 includes/class-functions.php:832
+#: includes/class-functions.php:844 includes/class-functions.php:1037
+#: includes/class-functions.php:1356
+msgid "Yes"
+msgstr "হ্যা"
+
+#: includes/class-functions.php:509 includes/class-functions.php:589
+#: includes/class-functions.php:600 includes/class-functions.php:611
+#: includes/class-functions.php:714 includes/class-functions.php:769
+#: includes/class-functions.php:781 includes/class-functions.php:832
+#: includes/class-functions.php:844 includes/class-functions.php:1037
+#: includes/class-functions.php:1356
+msgid "No"
+msgstr "না"
+
+#: includes/class-functions.php:576
+msgid "Permissions"
+msgstr "অনুমতিসমূহ"
+
+#: includes/class-functions.php:585 includes/class-functions.php:586
+msgid "Account required to post ads"
+msgstr "বিজ্ঞাপন পোস্ট করতে অ্যাকাউন্ট প্রয়োজন"
+
+#: includes/class-functions.php:596
+msgid "Registration enable"
+msgstr "রেজিস্ট্রেশন সক্রিয়"
+
+#: includes/class-functions.php:597
+msgid "Registration enable on My Account Page"
+msgstr "একাউন্ট পেজ এ রেজিস্ট্রেশন সক্রিয় রাখুন"
+
+#: includes/class-functions.php:607
+msgid "Login enable"
+msgstr "লগইন সচল"
+
+#: includes/class-functions.php:608
+msgid "Login enable on My Account Page"
+msgstr "একাউন্ট পেজ এ লগিন সচল রাখুন"
+
+#: includes/class-functions.php:622
+msgid "Pages"
+msgstr "অএই গুলো"
+
+#: includes/class-functions.php:635
+msgid "Archive page"
+msgstr "আর্কাইভ পেজ"
+
+#: includes/class-functions.php:636
+msgid "Select archive page"
+msgstr "আর্কাইভ পেজ নির্বাচন করুন"
+
+#: includes/class-functions.php:646
+msgid "Submit ads page"
+msgstr "বিজ্ঞাপন জমাদান পেজ"
+
+#: includes/class-functions.php:647
+msgid "Select submit ads page"
+msgstr "বিজ্ঞাপন জমাদান পেজ"
+
+#: includes/class-functions.php:657
+msgid "Edit ads page"
+msgstr "বিজ্ঞাপন সম্পাদনা পেজ"
+
+#: includes/class-functions.php:658
+msgid "Select edit ads page"
+msgstr "বিজ্ঞাপন সম্পাদনা পেজ"
+
+#: includes/class-functions.php:685
+msgid "Dashboard page"
+msgstr "ড্যাশবোর্ড পাতা"
+
+#: includes/class-functions.php:686
+msgid "Select dashboard page"
+msgstr "ড্যাশবোর্ড পাতা নির্বাচন করুন"
+
+#: includes/class-functions.php:701
+msgid "Ads Posting"
+msgstr "বিজ্ঞাপন পোষ্টিং"
+
+#: includes/class-functions.php:710 includes/class-functions.php:711
+msgid "reCAPTCHA enable"
+msgstr "রিক্যাপচা সক্রিয়"
+
+#: includes/class-functions.php:721 includes/class-functions.php:722
+msgid "reCAPTCHA site key"
+msgstr "রিক্যাপচা সাইট কী"
+
+#: includes/class-functions.php:731 includes/class-functions.php:732
+msgid "reCAPTCHA secret key"
+msgstr "রিক্যাপচা গোপন কী"
+
+#: includes/class-functions.php:741 includes/class-functions.php:742
+msgid "New Submitted Ads Status ?"
+msgstr "নতুন জমাকৃত বিজ্ঞাপনের অবস্থা"
+
+#: includes/class-functions.php:754 includes/class-functions.php:755
+msgid "Currency symbol"
+msgstr "মুদ্রা প্রতীক"
+
+#: includes/class-functions.php:765
+msgid "Can user edit published ads ?"
+msgstr "ব্যবহারকারী সম্পাদনা প্রকাশ করতে পারেন বিজ্ঞাপন?"
+
+#: includes/class-functions.php:766
+msgid "Can user edit their published ads ?"
+msgstr "ব্যবহারকারী তাদের প্রকাশিত বিজ্ঞাপন সম্পাদন করতে পারবে ?"
+
+#: includes/class-functions.php:777
+msgid "Display category meta"
+msgstr ""
+
+#: includes/class-functions.php:778
+msgid "Display category input field data."
+msgstr ""
+
+#: includes/class-functions.php:799 includes/my-account-registration.php:60
+msgid "Email"
+msgstr "ই-মেইল"
+
+#: includes/class-functions.php:808 includes/class-functions.php:809
+msgid "Email Logo URL"
+msgstr "ইমেল লোগো URL"
+
+#: includes/class-functions.php:818 includes/class-functions.php:819
+msgid "From Email"
+msgstr "ইমেইল থেকে"
+
+#: includes/class-functions.php:828 includes/class-functions.php:829
+msgid "Notify email new ads submit ?"
+msgstr "ই-মেইল নতুন বিজ্ঞাপন জমা অবহিত করতে ?"
+
+#: includes/class-functions.php:840 includes/class-functions.php:841
+msgid "Notify email new ads publish ?"
+msgstr "ই-মেইল নতুন বিজ্ঞাপন জমা অবহিত করতে ?"
+
+#: includes/class-functions.php:882
+msgid "Title"
+msgstr "টাইটেল"
+
+#: includes/class-functions.php:883 includes/class-functions.php:1189
+msgid "Ads Title"
+msgstr "বিজ্ঞাপন টাইটেল"
+
+#: includes/class-functions.php:892
+msgid "Descriptions"
+msgstr "বর্ননা"
+
+#: includes/class-functions.php:893
+msgid "Ads Descriptions"
+msgstr "বিজ্ঞাপন বর্ননা"
+
+#: includes/class-functions.php:918
+msgid "Images"
+msgstr "ছবি গুলো"
+
+#: includes/class-functions.php:919
+msgid "Add some awesome images"
+msgstr "দারুন কিছু ছবি যুক্ত করুন"
+
+#: includes/class-functions.php:931 includes/class-functions.php:932
+#: includes/class-functions.php:1228 includes/class-post-types.php:118
+msgid "Ads Category"
+msgstr "বিজ্ঞাপন বিভাগ"
+
+#: includes/class-functions.php:942
+msgid "Your Location"
+msgstr "আপনার অবস্থান"
+
+#: includes/class-functions.php:977
+msgid "Phone numbers"
+msgstr "ফোন নাম্বার গুলো"
+
+#: includes/class-functions.php:978 includes/class-functions.php:1289
+msgid "Phone numbers to contact."
+msgstr "যোগাযোগের জন্যে ফোন নাম্বার"
+
+#: includes/class-functions.php:988 includes/class-functions.php:1301
+msgid "Your full address"
+msgstr "আপনার পুর্ন ঠিকানা"
+
+#: includes/class-functions.php:999 includes/class-functions.php:1313
+msgid "Owner type"
+msgstr "মালিক রকমফের "
+
+#: includes/class-functions.php:1000 includes/class-functions.php:1314
+msgid "Owner type of this ads"
+msgstr "এই বিজ্ঞাপনের মালিক রকমফের"
+
+#: includes/class-functions.php:1003 includes/class-functions.php:1317
+msgid "Personal"
+msgstr "ব্যক্তিগত"
+
+#: includes/class-functions.php:1003 includes/class-functions.php:1317
+msgid "Business"
+msgstr "ব্যাবসা"
+
+#: includes/class-functions.php:1011 includes/class-functions.php:1328
+msgid "Listing for"
+msgstr "কিসের জন্যে জমা"
+
+#: includes/class-functions.php:1012 includes/class-functions.php:1329
+msgid "Ads Listing for"
+msgstr "কিসের জন্যে বিজ্ঞাপন"
+
+#: includes/class-functions.php:1015 includes/class-functions.php:1332
+msgid "Sell"
+msgstr "বিক্রি"
+
+#: includes/class-functions.php:1015 includes/class-functions.php:1332
+msgid "Rent"
+msgstr "ভাড়া"
+
+#: includes/class-functions.php:1015 includes/class-functions.php:1332
+msgid "Job Post"
+msgstr "কাজের পোষ্ট"
+
+#: includes/class-functions.php:1015 includes/class-functions.php:1332
+msgid "Wanted"
+msgstr "চাই"
+
+#: includes/class-functions.php:1024 includes/class-functions.php:1342
+msgid "Item Price"
+msgstr "মুল্য"
+
+#: includes/class-functions.php:1033 includes/class-functions.php:1352
+#: includes/shortcodes/shortcodes-archive.php:392
+msgid "Featured"
+msgstr "ফিচার্ড"
+
+#: includes/class-functions.php:1034 includes/class-functions.php:1353
+msgid "Featured listing ?"
+msgstr "ফিচার্ড লিস্ট ?"
+
+#: includes/class-functions.php:1053
+msgid "reCAPTCHA"
+msgstr "রিক্যাপচা"
+
+#: includes/class-functions.php:1054
+msgid "reCAPTCHA test."
+msgstr "রিক্যাপচা পরীক্ষা"
+
+#: includes/class-functions.php:1178
+msgid "reCaptcha"
+msgstr "রিক্যাপচা"
+
+#: includes/class-functions.php:1179
+msgid "reCaptcha test."
+msgstr "রিক্যাপচা পরীক্ষা"
+
+#: includes/class-functions.php:1190
+msgid "Ads Title Write Here"
+msgstr "বিজ্ঞাপন টাইটেল লিখুন"
+
+#: includes/class-functions.php:1200
+msgid "Ads Content"
+msgstr "বিজ্ঞাপন বর্ননা"
+
+#: includes/class-functions.php:1201
+msgid "Write Ads Content Here"
+msgstr "বিজ্ঞাপন বর্ননা লিখুন"
+
+#: includes/class-functions.php:1215
+msgid "Thumbnail"
+msgstr "থাম্বনাইল"
+
+#: includes/class-functions.php:1216
+msgid "Ads Featured Image, uplaod single image only"
+msgstr "ফিচার্ড ইমেইজ যুক্ত করুন, এখানে একটি মাত্র ছবি যুক্ত করুন"
+
+#: includes/class-functions.php:1229
+msgid "Select Ads Category."
+msgstr "বিজ্ঞাপন বিভাগ নির্বাচন করুন"
+
+#: includes/class-functions.php:1263
+msgid "Ads Gallery"
+msgstr "বিজ্ঞাপন গ্যালারী"
+
+#: includes/class-functions.php:1264
+msgid "Ads Gallery Images"
+msgstr "বিজ্ঞাপন গ্যালারী ছবি গুলো"
+
+#: includes/class-functions.php:1277
+msgid "Your Location, City ex: California"
+msgstr "আপনার শহর, উদাঃ California"
+
+#: includes/class-functions.php:1288
+msgid "Phone numbers."
+msgstr "ফোন নাম্বারগুলো"
+
+#: includes/class-post-meta-reports.php:24
+msgid "Report Data"
+msgstr "কাজের তথ্য"
+
+#: includes/class-post-meta.php:28
+msgid "Ads data"
+msgstr "বিজ্ঞাপন তথ্য"
+
+#: includes/class-post-types.php:25
+msgid "Reports"
+msgstr "অভিযোগ গুলো"
+
+#: includes/class-post-types.php:34 includes/class-post-types.php:83
+#: includes/class-post-types.php:133
+#, php-format
+msgid "All %s"
+msgstr "সবগুলো %s"
+
+#: includes/class-post-types.php:35 includes/class-post-types.php:84
+msgid "New "
+msgstr "নতুন"
+
+#: includes/class-post-types.php:36 includes/class-post-types.php:85
+#, php-format
+msgid "Add %s"
+msgstr "যুক্ত করুন %s"
+
+#: includes/class-post-types.php:37 includes/class-post-types.php:86
+#: includes/shortcodes/shortcodes-account.php:105
+msgid "Edit"
+msgstr "সম্পাদনা"
+
+#: includes/class-post-types.php:38 includes/class-post-types.php:87
+#: includes/class-post-types.php:136
+#, php-format
+msgid "Edit %s"
+msgstr "সম্পাদনা %s"
+
+#: includes/class-post-types.php:39 includes/class-post-types.php:88
+#, php-format
+msgid "New %s"
+msgstr "নতুন %s"
+
+#: includes/class-post-types.php:40 includes/class-post-types.php:41
+#: includes/class-post-types.php:89 includes/class-post-types.php:90
+#, php-format
+msgid "View %s"
+msgstr "দেখুন %s"
+
+#: includes/class-post-types.php:42 includes/class-post-types.php:91
+#: includes/class-post-types.php:132
+#, php-format
+msgid "Search %s"
+msgstr "খুজুন %s"
+
+#: includes/class-post-types.php:43 includes/class-post-types.php:92
+#, php-format
+msgid "No %s found"
+msgstr "%s পাওয়া যায় নি"
+
+#: includes/class-post-types.php:44 includes/class-post-types.php:93
+#, php-format
+msgid "No %s found in trash"
+msgstr "%s ট্রাশে পাওয়া যায়নি"
+
+#: includes/class-post-types.php:45 includes/class-post-types.php:94
+#: includes/class-post-types.php:134
+#, php-format
+msgid "Parent %s"
+msgstr "জনক %s"
+
+#: includes/class-post-types.php:47 includes/class-post-types.php:96
+#, php-format
+msgid "This is where you can create and manage %s."
+msgstr "এই জায়গায় আপনি %s তৈরী ও পরিচালনা করতে পারেন"
+
+#: includes/class-post-types.php:73 includes/class-post-types.php:74
+msgid "Ads"
+msgstr "বিজ্ঞাপন"
+
+#: includes/class-post-types.php:119
+msgid "Ads Categories"
+msgstr "বিজ্ঞাপনি বিভাগ"
+
+#: includes/class-post-types.php:135
+#, php-format
+msgid "Parent %s:"
+msgstr "জনক %s:"
+
+#: includes/class-post-types.php:137
+#, php-format
+msgid "Update %s"
+msgstr "হালনাগাদ %s"
+
+#: includes/class-post-types.php:138
+#, php-format
+msgid "Add New %s"
+msgstr "নতুন %s"
+
+#: includes/class-post-types.php:139
+#, php-format
+msgid "New %s Name"
+msgstr "নতুন %s নাম"
+
+#: includes/class-settings.php:24
+msgid "Settings"
+msgstr "সেটিংস"
+
+#: includes/class-settings.php:25
+msgid "Field Set"
+msgstr "ফিল্ড সেট"
+
+#: includes/class-settings.php:27
+msgid "Email Templates"
+msgstr "ইমেইল টেমপ্লেট"
+
+#: includes/class-settings.php:29 includes/shortcodes/shortcodes-account.php:184
+msgid "Welcome"
+msgstr "স্বাগতম"
+
+#: includes/class-settings.php:31
+msgid "Help"
+msgstr "সাহায্য"
+
+#: includes/class-settings.php:32
+msgid "Addons"
+msgstr "এড-অনগুলো"
+
+#: includes/functions.php:57
+msgid "This item is already in your wishlist!!!"
+msgstr "এটি ইতোমধ্যাই পছন্দের তালিকায় যুক্ত আছে"
+
+#: includes/functions.php:74
+msgid "Successfully added to your wishlist"
+msgstr "সফল ভাবে পছন্দের তালিকায় যুক্ত হয়েছে"
+
+#: includes/functions.php:103
+msgid "You can't report here more than Once!"
+msgstr "একটির বেশি অভিযোগ করতে পারবেন না"
+
+#: includes/functions.php:108 includes/functions.php:135
+msgid "Something went wrong!"
+msgstr "কিছু একটা ভুল হয়েছে"
+
+#: includes/functions.php:129
+msgid "You just Reported successfully"
+msgstr "বার্তা সফল ভাবে পাঠানো হয়েছে"
+
+#: includes/functions.php:240
+msgid "Thumb"
+msgstr "ছবি"
+
+#: includes/functions.php:284 includes/functions.php:285
+msgid "New input"
+msgstr "নতুন ইনপুট"
+
+#: includes/functions.php:660
+msgid "Frontend Edit"
+msgstr "ফ্রন্ডএন্ড সম্পাদনা"
+
+#: includes/functions.php:690
+msgid "Name is missing"
+msgstr "নাম বাদ পরেছে"
+
+#: includes/functions.php:694
+msgid "Email address is missing"
+msgstr "ইমেইল ঠিকানা বাদ পড়েছে"
+
+#: includes/functions.php:698
+msgid "Phone is missing"
+msgstr "ফোন বাদ পড়েছে"
+
+#: includes/functions.php:702
+msgid "Message is missing"
+msgstr "বার্তা বাদ পড়েছে"
+
+#: includes/functions.php:735
+msgid "Message sent successfully."
+msgstr "বার্তা সফল ভাবে পাঠানো হয়েছে"
+
+#: includes/functions.php:739
+msgid "Something went wrong with server."
+msgstr "সার্ভার সম্পর্কিত ভুল দেখাচ্ছে"
+
+#: includes/functions.php:828
+msgid "Ads deleted."
+msgstr "বিজ্ঞাপন মুছে ফেলা হয়েছে"
+
+#: includes/functions.php:831
+msgid "Something going wrong."
+msgstr "কিছু একটা ভুল হয়েছে"
+
+#: includes/functions.php:837
+msgid "You are not authorized to delete this ads."
+msgstr "আপনার এই বিজ্ঞাপন মুছে ফেলার অনুমতি নাই"
+
+#: includes/functions.php:872
+msgid "year ago"
+msgstr "বছর আগে"
+
+#: includes/functions.php:876
+msgid "month ago"
+msgstr "মাস আগে"
+
+#: includes/functions.php:880
+msgid "day ago"
+msgstr "দিন আগে"
+
+#: includes/functions.php:884
+msgid "hour ago"
+msgstr "ঘন্টা আগে"
+
+#: includes/functions.php:888
+msgid "minute ago"
+msgstr "মিনিট আগে"
+
+#: includes/functions.php:1143
+msgid "You are not authorized"
+msgstr "আপনার অনুমতি নাই"
+
+#: includes/menu/addons.php:89
+msgid "Version:"
+msgstr "ভার্সনঃ"
+
+#: includes/menu/addons.php:99 includes/shortcodes/shortcodes-archive.php:187
+#: includes/shortcodes/shortcodes-archive.php:457
+msgid "Price:"
+msgstr "মুল্যঃ"
+
+#: includes/menu/addons.php:100
+msgid "Download"
+msgstr "ডাউনলোড"
+
+#: includes/menu/addons.php:132
+msgid " - Addons"
+msgstr "- এডনস"
+
+#: includes/menu/emails-templates.php:63
+msgid "Email Subject:"
+msgstr "ইমেইল বিষয়ঃ"
+
+#: includes/menu/emails-templates.php:72
+msgid "Email Body:"
+msgstr "ইমেইল বার্তাঃ"
+
+#: includes/menu/emails-templates.php:96
+msgid " - Emails Templates"
+msgstr "- ইমেইল টেম্পেলেট"
+
+#: includes/menu/emails-templates.php:114 includes/menu/field-set.php:46
+#: includes/menu/settings.php:68
+msgid "Changes Saved."
+msgstr "পরিবর্তন গুলো সংরক্ষন হয়েছে"
+
+#: includes/menu/emails-templates.php:140 includes/menu/field-set.php:245
+#: includes/menu/settings.php:174
+msgid "Save Changes"
+msgstr "পরিবর্তন গুলো সংরক্ষন করুন"
+
+#: includes/menu/field-set.php:78
+msgid ""
+"You can display input fields based on catgory, please check which input fields you "
+"want to load on ads submission form on which category."
+msgstr ""
+"বিজ্ঞাপনের বিভাগ অনুযায়ী ভিন্ন ভিন্ন ইনপুট ফিল্ড দেখাতে পারেন, দয়া করে নির্বাচন করুন বিজ্ঞাপন "
+"জমাদান পেজ এ কোন বিভাগ এর জন্যে কন ফিল্ড গুলো দেখাতে চান। "
+
+#: includes/menu/field-set.php:82 includes/shortcodes/shortcodes-edit-ads.php:876
+msgid "Update"
+msgstr "হালনাগাদ"
+
+#: includes/menu/field-set.php:145 includes/menu/field-set.php:180
+msgid "Display ads submission form"
+msgstr "বিজ্ঞাপন জমাদান পেজ এ দেখান"
+
+#: includes/menu/field-set.php:160 includes/menu/field-set.php:181
+msgid "Display on Ads page"
+msgstr "বিজ্ঞপন এর পাতায় দেখান"
+
+#: includes/menu/field-set.php:212
+msgid "Please create some ads categories first."
+msgstr "দয়া করে প্রথমে কিছু ক্যাটেগোরী তৈরী করুন"
+
+#: includes/menu/help.php:22
+#, php-format
+msgid "%s - Help"
+msgstr "%s - সাহায্য"
+
+#: includes/menu/help.php:27
+msgid "Ask any question"
+msgstr "যেকোন প্রশ্ন করুন"
+
+#: includes/menu/help.php:29
+msgid ""
+"Please feel free to contact for any question, ask via our forum <a href=\"http://www."
+"pickplugins.com/questions/\">http://www.pickplugins.com/questions/</a>"
+msgstr ""
+
+#: includes/menu/help.php:36
+msgid "Submit Reviews."
+msgstr "রিভিউ দিন"
+
+#: includes/menu/help.php:37
+msgid ""
+"We are working hard to build some awesome plugins for you and spend thousand hour "
+"for plugins. we wish your three(3) minute by submitting five star reviews at "
+"wordpress.org. if you have any issue please submit at forum."
+msgstr ""
+
+#: includes/menu/help.php:49
+msgid "Watch video tutorial"
+msgstr "ভিডিও টিউটোরিয়াল দেখুন"
+
+#: includes/menu/welcome.php:43
+msgid "Options Saved"
+msgstr "অপশন সংরক্ষন হয়েছে"
+
+#: includes/menu/welcome.php:74
+msgid "Page Created."
+msgstr "পেজ গুলো তৈরী হয়েছে"
+
+#: includes/menu/welcome.php:84
+msgid "Permissions Saved."
+msgstr "অনুমতিসমূহ সংরক্ষন হয়েছে"
+
+#: includes/menu/welcome.php:93
+msgid "Ads Posting Saved."
+msgstr "বিজ্ঞাপন সংরক্ষন হয়েছে"
+
+#: includes/menu/welcome.php:161
+msgid "Step 1: Save Options"
+msgstr "ধাপ ১ - সাধারন অপশন"
+
+#: includes/menu/welcome.php:164
+msgid "#General Options"
+msgstr "# সাধারন অপশন"
+
+#: includes/menu/welcome.php:181
+msgid "#Create Pages"
+msgstr "# পেজ তৈরী"
+
+#: includes/menu/welcome.php:183
+msgid "Step 2: Create Pages"
+msgstr "ধাপ ২ - পেজ তৈরী"
+
+#: includes/menu/welcome.php:206
+msgid "#Save Permissions"
+msgstr "# অনুমতিসমূহ সংরক্ষন"
+
+#: includes/menu/welcome.php:208
+msgid "Step 3: Save Permissions"
+msgstr "ধাপ ৩ - অনুমতিসমূহ সংরক্ষন"
+
+#: includes/menu/welcome.php:245
+msgid "#Ads Posting"
+msgstr "# বিজ্ঞাপন জমাদান"
+
+#: includes/menu/welcome.php:247
+msgid "Step 4: Ads Posting"
+msgstr "ধাপ ৪ - বিজ্ঞাপন জমাদান"
+
+#: includes/menu/welcome.php:273
+msgid "Nothing to Save"
+msgstr "সেভ করার কিছু নাই"
+
+#: includes/my-account-registration.php:48
+msgid "Username"
+msgstr "ইউসার নাম"
+
+#: includes/my-account-registration.php:54
+msgid "Password"
+msgstr "পাসওয়ার্ড "
+
+#: includes/my-account-registration.php:75
+msgid "Required form field is missing"
+msgstr "আবশ্যক ফর্ম তথ্য বাদ পড়েছে"
+
+#: includes/my-account-registration.php:79
+msgid "Username too short. At least 4 characters is required"
+msgstr "ইউসার নাম খুবই ছোট"
+
+#: includes/my-account-registration.php:83
+msgid "Sorry, that username already exists!"
+msgstr "দুঃখিত, এই ইউসার নাম আগেই নেওয়া হয়েছে"
+
+#: includes/my-account-registration.php:86
+msgid "Sorry, the username you entered is not valid"
+msgstr "দুঃখিত, এই ইউসার নাম যৌতিক্ত নয়"
+
+#: includes/my-account-registration.php:90
+msgid "Password length must be greater than 5"
+msgstr "পাসওয়ার্ড ৫ অক্ষরের বেশি হতে হবে"
+
+#: includes/my-account-registration.php:94
+msgid "Email is not valid"
+msgstr "ইমেইল সঠিক নয়"
+
+#: includes/my-account-registration.php:98
+msgid "Email Already in use"
+msgstr "ইমেইল ইতমধ্যেই ব্যবহার হয়েছে"
+
+#: includes/my-account-registration.php:107
+msgid "ERROR"
+msgstr "ভুল"
+
+#: includes/my-account-registration.php:125
+msgid "Registration complete."
+msgstr "নিবন্ধন সম্পন্ন হয়েছে"
+
+#: includes/pickform/class-pickform.php:754
+msgid "Drop files here"
+msgstr "এখানে ফাইল দিন"
+
+#: includes/shortcodes/depricated/shortcodes-edit-ads.php:176
+msgid "Save Changed."
+msgstr "পরিবর্তন গুলো সংরক্ষিত হয়েছে"
+
+#: includes/shortcodes/depricated/shortcodes-edit-ads.php:262
+msgid "Update Ads"
+msgstr "বিজ্ঞাপন হালনাগাদ করুন"
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:122
+msgid "is empty."
+msgstr "ফাকা"
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:241
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:334
+#: includes/shortcodes/shortcodes-post-ads.php:322
+msgid "Ads Submitted."
+msgstr "বিজ্ঞাপন জমা হয়েছে"
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:242
+#: includes/shortcodes/shortcodes-post-ads.php:323
+msgid "Submission Status:"
+msgstr "জমাকৃত অবস্থাঃ"
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:335
+msgid "Submission Status: "
+msgstr "জমাকৃত অবস্থাঃ "
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:365
+msgid "reCAPTCHA is missing."
+msgstr "রিক্যাপচা বাদ পড়েছে"
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:407
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:690
+#: includes/shortcodes/shortcodes-edit-ads.php:443
+#: includes/shortcodes/shortcodes-edit-ads.php:907
+#: includes/shortcodes/shortcodes-post-ads.php:406
+#: includes/shortcodes/shortcodes-post-ads.php:736
+msgid "Select Category"
+msgstr "বিভাগ নির্বাচন করুন"
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:432
+#: includes/shortcodes/shortcodes-edit-ads.php:482
+#: includes/shortcodes/shortcodes-post-ads.php:431
+msgid "No categories found."
+msgstr "কোণ বিভাগ পাওয়া যায় নি"
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:444
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:516
+#: includes/shortcodes/shortcodes-edit-ads.php:542
+#: includes/shortcodes/shortcodes-edit-ads.php:617
+#: includes/shortcodes/shortcodes-edit-ads.php:639
+#: includes/shortcodes/shortcodes-post-ads.php:443
+#: includes/shortcodes/shortcodes-post-ads.php:515
+msgid "Next"
+msgstr "পরবর্তী"
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:469
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:545
+#: includes/shortcodes/shortcodes-account.php:114
+#: includes/shortcodes/shortcodes-archive.php:331
+#: includes/shortcodes/shortcodes-edit-ads.php:569
+#: includes/shortcodes/shortcodes-edit-ads.php:686
+#: includes/shortcodes/shortcodes-post-ads.php:468
+#: includes/shortcodes/shortcodes-post-ads.php:544 templates/single-ads-meta.php:41
+msgid "Category:"
+msgstr "বিভাগঃ"
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:476
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:479
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:488
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:495
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:551
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:554
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:566
+#: includes/shortcodes/shortcodes-edit-ads.php:576
+#: includes/shortcodes/shortcodes-edit-ads.php:579
+#: includes/shortcodes/shortcodes-edit-ads.php:588
+#: includes/shortcodes/shortcodes-edit-ads.php:595
+#: includes/shortcodes/shortcodes-edit-ads.php:692
+#: includes/shortcodes/shortcodes-edit-ads.php:698
+#: includes/shortcodes/shortcodes-edit-ads.php:710
+#: includes/shortcodes/shortcodes-post-ads.php:475
+#: includes/shortcodes/shortcodes-post-ads.php:478
+#: includes/shortcodes/shortcodes-post-ads.php:487
+#: includes/shortcodes/shortcodes-post-ads.php:494
+#: includes/shortcodes/shortcodes-post-ads.php:550
+#: includes/shortcodes/shortcodes-post-ads.php:556
+#: includes/shortcodes/shortcodes-post-ads.php:569
+msgid "Change Category"
+msgstr "বিভাগ পরিবর্তন করুন"
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:488
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:495
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:566
+#: includes/shortcodes/shortcodes-edit-ads.php:588
+#: includes/shortcodes/shortcodes-edit-ads.php:595
+#: includes/shortcodes/shortcodes-edit-ads.php:710
+#: includes/shortcodes/shortcodes-post-ads.php:487
+#: includes/shortcodes/shortcodes-post-ads.php:494
+#: includes/shortcodes/shortcodes-post-ads.php:569
+msgid "Category missing"
+msgstr "বিভাগ বাদ পরেছে"
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:500
+#: includes/shortcodes/shortcodes-edit-ads.php:600
+#: includes/shortcodes/shortcodes-post-ads.php:499
+msgid "Select Location:"
+msgstr "অবস্থান নির্বাচন করুন"
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:591
+#: includes/shortcodes/shortcodes-archive.php:89
+#: includes/shortcodes/shortcodes-edit-ads.php:742
+#: includes/shortcodes/shortcodes-post-ads.php:594
+msgid "Location:"
+msgstr "অবস্থানঃ"
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:597
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:600
+#: includes/shortcodes/shortcodes-edit-ads.php:748
+#: includes/shortcodes/shortcodes-edit-ads.php:751
+#: includes/shortcodes/shortcodes-post-ads.php:600
+#: includes/shortcodes/shortcodes-post-ads.php:603
+msgid "Change Location"
+msgstr "অবস্থান পরিবর্তন করুন"
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:600
+#: includes/shortcodes/shortcodes-edit-ads.php:751
+#: includes/shortcodes/shortcodes-post-ads.php:603
+msgid "Location missing"
+msgstr "অবস্থান বাদ পড়েছে"
+
+#: includes/shortcodes/shortcodes-account.php:106
+msgid "Delete"
+msgstr "মুছে ফেলুন"
+
+#: includes/shortcodes/shortcodes-account.php:108
+msgid "Status:"
+msgstr "অবস্থাঃ"
+
+#: includes/shortcodes/shortcodes-account.php:109
+msgid "Published:"
+msgstr "প্রকাশিতঃ"
+
+#: includes/shortcodes/shortcodes-account.php:138
+#, php-format
+msgid "No ads found posted by you. <a href=\"%s\">create first Ads</a>"
+msgstr "আপনার কোন বিজ্ঞাপন পাওয়া যায়নি, <a href=\"%s\">প্রথম বিজ্ঞাপন তৈরী করুন </a>"
+
+#: includes/shortcodes/shortcodes-account.php:184
+msgid "Logout"
+msgstr "লগআউট"
+
+#: includes/shortcodes/shortcodes-account.php:193
+msgid "Account info"
+msgstr "একাউন্ট তথ্য"
+
+#: includes/shortcodes/shortcodes-account.php:249
+msgid "Register"
+msgstr "রেজিস্টার"
+
+#: includes/shortcodes/shortcodes-account.php:257
+msgid "Login"
+msgstr "লগিন"
+
+#: includes/shortcodes/shortcodes-account.php:358
+msgid "Edit Account"
+msgstr "একাউন্ট সম্পাদনা"
+
+#: includes/shortcodes/shortcodes-account.php:381
+msgid "Save Account"
+msgstr "একাউন্ট সংরক্ষন"
+
+#: includes/shortcodes/shortcodes-account.php:385
+msgid "Account saved"
+msgstr "একাউন্ট সংরক্ষন হয়েছে"
+
+#: includes/shortcodes/shortcodes-account.php:443
+msgid "&laquo; Previous"
+msgstr "&laquo; পুর্ববর্তী"
+
+#: includes/shortcodes/shortcodes-account.php:444
+msgid "Next &raquo;"
+msgstr "পরেরগুলী &raquo;"
+
+#: includes/shortcodes/shortcodes-archive.php:64
+msgid "Keyword:"
+msgstr "কীওয়ার্ডঃ "
+
+#: includes/shortcodes/shortcodes-archive.php:125
+msgid "Featured:"
+msgstr "ফিচার্ডঃ"
+
+#: includes/shortcodes/shortcodes-archive.php:147
+msgid "Owner Type:"
+msgstr "মালিক রকমফেরঃ"
+
+#: includes/shortcodes/shortcodes-archive.php:167
+msgid "Listing for:"
+msgstr "কিসের জন্যেঃ"
+
+#: includes/shortcodes/shortcodes-archive.php:228
+msgid "Price Range(Min-Max):"
+msgstr "মুল্য ব্যাপ্তি(সর্বোচ্ছ-সর্বনিম্ন)ঃ "
+
+#: includes/shortcodes/shortcodes-archive.php:253
+msgid "Date (dd/mm/yyyy):"
+msgstr "তারিখ (dd/mm/yyyy)"
+
+#: includes/shortcodes/shortcodes-archive.php:302
+msgid "Date Range (dd/mm/yyyy):"
+msgstr "তারিখ ব্যাপ্তি (dd/mm/yyyy)"
+
+#: includes/shortcodes/shortcodes-archive.php:541
+msgid "No ads found"
+msgstr "কোণ বিজ্ঞাপন পাওয়া যায় নি"
+
+#: includes/shortcodes/shortcodes-dashboard.php:61
+msgid "Account"
+msgstr "একাউন্ট"
+
+#: includes/shortcodes/shortcodes-dashboard.php:68
+msgid "Account Edit"
+msgstr "একাউন্ট সম্পদনা"
+
+#: includes/shortcodes/shortcodes-dashboard.php:74
+msgid "My Ads"
+msgstr "আমার বিজ্ঞাপন"
+
+#: includes/shortcodes/shortcodes-dashboard.php:80
+msgid "My Wishlist"
+msgstr "পছন্দের তালিকা"
+
+#: includes/shortcodes/shortcodes-edit-ads.php:91
+msgid "Sorry you are not authorized edit this ads."
+msgstr "দুঃখিত এই বিজ্ঞাপন সম্পাদনের অনুমতি নেই।"
+
+#: includes/shortcodes/shortcodes-edit-ads.php:147
+#: includes/shortcodes/shortcodes-edit-ads.php:152
+#: includes/shortcodes/shortcodes-edit-ads.php:159
+#: includes/shortcodes/shortcodes-edit-ads.php:167
+#: includes/shortcodes/shortcodes-post-ads.php:140
+#: includes/shortcodes/shortcodes-post-ads.php:147
+#: includes/shortcodes/shortcodes-post-ads.php:155
+#: includes/shortcodes/shortcodes-post-ads.php:164
+msgid "missing"
+msgstr "বাদ পড়েছে"
+
+#: includes/shortcodes/shortcodes-edit-ads.php:350
+msgid "Ads Update Successful."
+msgstr "বিজ্ঞাপন সম্পাদনা সফল হয়েছে।"
+
+#: includes/shortcodes/shortcodes-edit-ads.php:351
+msgid "Ads Status:"
+msgstr "বিজ্ঞাপনের অবস্থাঃ"
+
+#: templates/single-ads-meta.php:25
+msgid "Posted by"
+msgstr "পোষ্ট করেছেন"
+
+#: templates/single-ads-meta.php:29
+msgid "For"
+msgstr "জন্যে"
+
+#: templates/single-ads-meta.php:33
+msgid "Date:"
+msgstr "তারিখঃ"
+
+#~ msgid "Account page"
+#~ msgstr "একাউন্ট পেজ"
+
+#~ msgid "Buisness"
+#~ msgstr "ব্যবসায়িক"
+
+#~ msgid "Is missing."
+#~ msgstr "বাদ পড়েছে"

@@ -1,0 +1,767 @@
+0000.216 (0) Opened log file at time: Tue, 11 Dec 2018 06:21:01 +0000 on http://localhost/wordpress
+0000.390 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.12 WP: 4.9.8 PHP: 5.6.28 (apache2handler, Windows NT DESKTOP-0AS6REA 6.2 build 9200 (Windows 8 Professional Edition) i586) MySQL: 5.5.5 WPLANG: en_US Server: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 68.5M | 69.3M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.476 (0) Free space on disk containing Updraft's temporary directory: 105232.9 MB
+0000.730 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.859 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0001.378 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1542286130, seconds_ago=2223132)
+0001.817 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2018-12-11 06:21:03
+0002.173 (0) Semaphore (fd, wp_options) reset to 1
+0002.450 (0) Set semaphore last lock (fd) time to 2018-12-11 06:21:04
+0002.799 (0) Semaphore lock (fd) complete
+0004.470 (0) Backup run: resumption=0, nonce=ee2ef8aba477, begun at=1544509261 (5s ago), job type=backup
+0005.346 (0) Scheduling a resumption (1) after 300 seconds (1544509567) in case this run gets aborted
+0006.075 (0) Checking if we have a zip executable available
+0006.525 (0) Creation of backups of directories: beginning
+0007.560 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0059.534 (0) Total entities for the zip file: 1783 directories, 11677 files (0 skipped as non-modified), 158.1 MB
+0059.749 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0060.228 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 100 files added (on-disk size: 301.3 KB)
+0060.362 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 200 files added (on-disk size: 301.3 KB)
+0060.612 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 300 files added (on-disk size: 301.3 KB)
+0060.746 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 400 files added (on-disk size: 301.3 KB)
+0061.036 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 500 files added (on-disk size: 301.3 KB)
+0061.114 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.5 MB, 11677 files batched, 501 (502) added so far); re-opening (prior size: 301.3 KB)
+0069.728 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 600 files added (on-disk size: 2323 KB)
+0070.023 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 700 files added (on-disk size: 2323 KB)
+0070.234 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 800 files added (on-disk size: 2323 KB)
+0070.449 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 900 files added (on-disk size: 2323 KB)
+0070.627 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 1000 files added (on-disk size: 2323 KB)
+0070.790 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.3 MB, 11677 files batched, 501 (1003) added so far); re-opening (prior size: 2323 KB)
+0078.785 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 1100 files added (on-disk size: 3380.8 KB)
+0079.031 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 1200 files added (on-disk size: 3380.8 KB)
+0079.453 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 1300 files added (on-disk size: 3380.8 KB)
+0079.680 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 1400 files added (on-disk size: 3380.8 KB)
+0079.994 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 1500 files added (on-disk size: 3380.8 KB)
+0080.102 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.2 MB, 11677 files batched, 501 (1504) added so far); re-opening (prior size: 3380.8 KB)
+0099.100 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 1600 files added (on-disk size: 6222.1 KB)
+0100.157 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 1700 files added (on-disk size: 6222.1 KB)
+0101.012 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 1800 files added (on-disk size: 6222.1 KB)
+0102.181 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6 MB, 297 (1801) files added so far); re-opening (prior size: 6222.1 KB)
+0119.899 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 1900 files added (on-disk size: 8364.6 KB)
+0120.288 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 2000 files added (on-disk size: 8364.6 KB)
+0120.659 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 2100 files added (on-disk size: 8364.6 KB)
+0120.948 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 2200 files added (on-disk size: 8364.6 KB)
+0121.141 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 2300 files added (on-disk size: 8364.6 KB)
+0121.511 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.5 MB, 11677 files batched, 501 (2302) added so far); re-opening (prior size: 8364.6 KB)
+0139.518 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 2400 files added (on-disk size: 10010.3 KB)
+0139.691 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 2500 files added (on-disk size: 10010.3 KB)
+0140.126 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 2600 files added (on-disk size: 10010.3 KB)
+0140.491 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 2700 files added (on-disk size: 10010.3 KB)
+0140.705 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 2800 files added (on-disk size: 10010.3 KB)
+0140.774 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8 MB, 11677 files batched, 501 (2803) added so far); re-opening (prior size: 10010.3 KB)
+0156.386 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 2900 files added (on-disk size: 12839.5 KB)
+0156.961 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 3000 files added (on-disk size: 12839.5 KB)
+0157.302 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 3100 files added (on-disk size: 12839.5 KB)
+0157.456 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 3200 files added (on-disk size: 12839.5 KB)
+0158.035 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 3300 files added (on-disk size: 12839.5 KB)
+0158.246 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.5 MB, 11677 files batched, 501 (3304) added so far); re-opening (prior size: 12839.5 KB)
+0165.256 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 3400 files added (on-disk size: 13809.9 KB)
+0165.490 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 3500 files added (on-disk size: 13809.9 KB)
+0165.821 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 3600 files added (on-disk size: 13809.9 KB)
+0166.036 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 3700 files added (on-disk size: 13809.9 KB)
+0166.196 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 3800 files added (on-disk size: 13809.9 KB)
+0166.259 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.1 MB, 11677 files batched, 501 (3805) added so far); re-opening (prior size: 13809.9 KB)
+0179.130 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 3900 files added (on-disk size: 16632.7 KB)
+0179.355 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 4000 files added (on-disk size: 16632.7 KB)
+0179.584 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 4100 files added (on-disk size: 16632.7 KB)
+0179.798 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 4200 files added (on-disk size: 16632.7 KB)
+0180.042 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 4300 files added (on-disk size: 16632.7 KB)
+0180.159 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.6 MB, 11677 files batched, 501 (4306) added so far); re-opening (prior size: 16632.7 KB)
+0186.017 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 4400 files added (on-disk size: 18145.2 KB)
+0186.213 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 4500 files added (on-disk size: 18145.2 KB)
+0186.491 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 4600 files added (on-disk size: 18145.2 KB)
+0186.688 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 4700 files added (on-disk size: 18145.2 KB)
+0186.866 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 4800 files added (on-disk size: 18145.2 KB)
+0186.967 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.1 MB, 11677 files batched, 501 (4807) added so far); re-opening (prior size: 18145.2 KB)
+0195.766 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 4900 files added (on-disk size: 20410.8 KB)
+0196.125 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 5000 files added (on-disk size: 20410.8 KB)
+0196.346 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 5100 files added (on-disk size: 20410.8 KB)
+0196.582 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 5200 files added (on-disk size: 20410.8 KB)
+0196.859 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 5300 files added (on-disk size: 20410.8 KB)
+0196.970 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.1 MB, 11677 files batched, 501 (5308) added so far); re-opening (prior size: 20410.8 KB)
+0206.527 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 5400 files added (on-disk size: 22037.7 KB)
+0206.929 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 5500 files added (on-disk size: 22037.7 KB)
+0207.238 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 5600 files added (on-disk size: 22037.7 KB)
+0207.434 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 5700 files added (on-disk size: 22037.7 KB)
+0207.715 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 5800 files added (on-disk size: 22037.7 KB)
+0207.829 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.1 MB, 11677 files batched, 501 (5809) added so far); re-opening (prior size: 22037.7 KB)
+0213.058 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 5900 files added (on-disk size: 24096.3 KB)
+0213.293 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 6000 files added (on-disk size: 24096.3 KB)
+0213.498 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 6100 files added (on-disk size: 24096.3 KB)
+0213.780 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 6200 files added (on-disk size: 24096.3 KB)
+0214.008 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 6300 files added (on-disk size: 24096.3 KB)
+0214.115 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.4 MB, 11677 files batched, 501 (6310) added so far); re-opening (prior size: 24096.3 KB)
+0223.889 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 6400 files added (on-disk size: 27364.7 KB)
+0224.199 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 6500 files added (on-disk size: 27364.7 KB)
+0224.535 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 6600 files added (on-disk size: 27364.7 KB)
+0224.856 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 6700 files added (on-disk size: 27364.7 KB)
+0225.184 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 6800 files added (on-disk size: 27364.7 KB)
+0225.430 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.5 MB, 11677 files batched, 501 (6811) added so far); re-opening (prior size: 27364.7 KB)
+0231.617 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 6900 files added (on-disk size: 28691 KB)
+0231.983 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 7000 files added (on-disk size: 28691 KB)
+0232.261 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 7100 files added (on-disk size: 28691 KB)
+0232.739 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 7200 files added (on-disk size: 28691 KB)
+0232.913 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 7300 files added (on-disk size: 28691 KB)
+0232.965 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.1 MB, 11677 files batched, 501 (7312) added so far); re-opening (prior size: 28691 KB)
+0234.420 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 7400 files added (on-disk size: 28896.7 KB)
+0234.573 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 7500 files added (on-disk size: 28896.7 KB)
+0234.857 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 7600 files added (on-disk size: 28896.7 KB)
+0235.054 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 7700 files added (on-disk size: 28896.7 KB)
+0235.218 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 7800 files added (on-disk size: 28896.7 KB)
+0235.341 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.2 MB, 11677 files batched, 501 (7813) added so far); re-opening (prior size: 28896.7 KB)
+0246.093 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 7900 files added (on-disk size: 33891.2 KB)
+0246.424 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 8000 files added (on-disk size: 33891.2 KB)
+0246.567 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 8100 files added (on-disk size: 33891.2 KB)
+0246.756 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 8200 files added (on-disk size: 33891.2 KB)
+0247.028 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 8300 files added (on-disk size: 33891.2 KB)
+0247.388 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.3 MB, 11677 files batched, 501 (8314) added so far); re-opening (prior size: 33891.2 KB)
+0262.547 (0) The scheduled resumption is within 45 seconds - will reschedule
+0262.704 (0) Rescheduling resumption 1: moving to 345 seconds from now (1544509869)
+0262.945 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0263.118 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 8400 files added (on-disk size: 38925.7 KB)
+0263.291 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 8500 files added (on-disk size: 38925.7 KB)
+0263.553 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 8600 files added (on-disk size: 38925.7 KB)
+0264.068 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 8700 files added (on-disk size: 38925.7 KB)
+0264.309 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 8800 files added (on-disk size: 38925.7 KB)
+0264.357 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.9 MB, 11677 files batched, 501 (8815) added so far); re-opening (prior size: 38925.7 KB)
+0278.221 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 8900 files added (on-disk size: 39639.2 KB)
+0278.821 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 9000 files added (on-disk size: 39639.2 KB)
+0279.269 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 9100 files added (on-disk size: 39639.2 KB)
+0279.449 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 9200 files added (on-disk size: 39639.2 KB)
+0279.690 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 9300 files added (on-disk size: 39639.2 KB)
+0279.752 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.8 MB, 11677 files batched, 501 (9316) added so far); re-opening (prior size: 39639.2 KB)
+0293.142 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 9400 files added (on-disk size: 41852.7 KB)
+0293.371 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 9500 files added (on-disk size: 41852.7 KB)
+0293.527 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 9600 files added (on-disk size: 41852.7 KB)
+0293.711 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 9700 files added (on-disk size: 41852.7 KB)
+0293.890 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 9800 files added (on-disk size: 41852.7 KB)
+0294.261 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.9 MB, 11677 files batched, 501 (9817) added so far); re-opening (prior size: 41852.7 KB)
+0303.652 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 9900 files added (on-disk size: 43556.1 KB)
+0303.897 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 10000 files added (on-disk size: 43556.1 KB)
+0304.081 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 10100 files added (on-disk size: 43556.1 KB)
+0304.330 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 10200 files added (on-disk size: 43556.1 KB)
+0304.511 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 10300 files added (on-disk size: 43556.1 KB)
+0304.586 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.4 MB, 11677 files batched, 501 (10318) added so far); re-opening (prior size: 43556.1 KB)
+0315.282 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 10400 files added (on-disk size: 45468.4 KB)
+0315.554 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 10500 files added (on-disk size: 45468.4 KB)
+0315.829 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 10600 files added (on-disk size: 45468.4 KB)
+0316.055 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 10700 files added (on-disk size: 45468.4 KB)
+0316.336 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 10800 files added (on-disk size: 45468.4 KB)
+0316.597 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (14 MB, 11677 files batched, 501 (10819) added so far); re-opening (prior size: 45468.4 KB)
+0331.223 (0) The time we have been running (330.4) is approaching the resumption interval (345) - increasing resumption interval to 361
+0331.586 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 10900 files added (on-disk size: 51259 KB)
+0332.489 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 11000 files added (on-disk size: 51259 KB)
+0332.781 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 11100 files added (on-disk size: 51259 KB)
+0333.501 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 11200 files added (on-disk size: 51259 KB)
+0333.872 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 11300 files added (on-disk size: 51259 KB)
+0334.031 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.8 MB, 11677 files batched, 501 (11320) added so far); re-opening (prior size: 51259 KB)
+0347.161 (0) The time we have been running (345.9) is approaching the resumption interval (361) - increasing resumption interval to 376
+0350.613 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 2 (11322) files added so far); re-opening (prior size: 53501.7 KB)
+0355.703 (0) The time we have been running (354.3) is approaching the resumption interval (376) - increasing resumption interval to 385
+0357.310 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 11400 files added (on-disk size: 53503.9 KB)
+0358.015 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 11500 files added (on-disk size: 53503.9 KB)
+0358.687 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip.tmp: 11600 files added (on-disk size: 53503.9 KB)
+0359.630 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.8 MB, 279 (11601) files added so far); re-opening (prior size: 53503.9 KB)
+0371.594 (0) The time we have been running (371.1) is approaching the resumption interval (385) - increasing resumption interval to 402
+0374.102 (0) The time we have been running (373.3) is approaching the resumption interval (402) - increasing resumption interval to 404
+0375.003 (0) Created plugins zip (0) - 56361.4 KB in 367 s (153.6 KB/s) (sha1: c210a08c13da4a95df03bda1787171efbe36f68a, sha256: 3ec09c0396872d3119537b2031a21957d172689a430c5ecd96d1b469a23d3bfe)
+0375.160 (0) Beginning creation of dump of themes (split every: 400 MB)
+0375.921 (0) Total entities for the zip file: 65 directories, 449 files (0 skipped as non-modified), 27.2 MB
+0376.257 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0376.616 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0376.980 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0377.338 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (23.3 MB, 301 (301) files added so far); re-opening (prior size: 0 KB)
+0383.333 (0) The time we have been running (382.9) is approaching the resumption interval (404) - increasing resumption interval to 413
+0383.560 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-themes.zip.tmp: 400 files added (on-disk size: 18819.6 KB)
+0386.126 (0) The time we have been running (385.4) is approaching the resumption interval (413) - increasing resumption interval to 416
+0386.658 (0) Created themes zip (0) - 20374 KB in 11.5 s (1778.8 KB/s) (sha1: 9ce92cc4a8353250b4eb0b441c0c938d52cae741, sha256: 7771aba9b14708b69800ae2c9c03679a3f39bab053a398416b8a29bf25c6f3ef)
+0386.934 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0387.057 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content/uploads
+0387.118 (0) finding files: 2016: adding to list (1)
+0387.182 (0) finding files: 2018: adding to list (2)
+0387.251 (0) finding files: awpcp: adding to list (3)
+0387.318 (0) finding files: GeoIP.dat: adding to list (4)
+0387.434 (0) finding files: GeoIPv6.dat: adding to list (5)
+0387.507 (0) finding files: GeoLite2-Country.mmdb: adding to list (6)
+0387.633 (0) finding files: js_composer: adding to list (7)
+0387.801 (0) finding files: revslider: adding to list (8)
+0388.016 (0) finding files: wc-logs: adding to list (9)
+0388.107 (0) finding files: woocommerce_uploads: adding to list (10)
+0388.191 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0390.643 (0) Total entities for the zip file: 193 directories, 1802 files (0 skipped as non-modified), 82.1 MB
+0390.801 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0390.949 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0391.118 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0391.238 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (8 MB, 364 (364) files added so far); re-opening (prior size: 0 KB)
+0400.833 (0) The time we have been running (400.1) is approaching the resumption interval (416) - increasing resumption interval to 431
+0400.994 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip.tmp: 400 files added (on-disk size: 8091.6 KB)
+0401.093 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip.tmp: 500 files added (on-disk size: 8091.6 KB)
+0401.358 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip.tmp: 600 files added (on-disk size: 8091.6 KB)
+0401.467 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip.tmp: 700 files added (on-disk size: 8091.6 KB)
+0401.571 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip.tmp: 800 files added (on-disk size: 8091.6 KB)
+0401.726 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (14.1 MB, 1802 files batched, 501 (865) added so far); re-opening (prior size: 8091.6 KB)
+0416.357 (0) The time we have been running (415.6) is approaching the resumption interval (431) - increasing resumption interval to 446
+0416.618 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip.tmp: 900 files added (on-disk size: 22152.8 KB)
+0416.948 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip.tmp: 1000 files added (on-disk size: 22152.8 KB)
+0417.278 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip.tmp: 1100 files added (on-disk size: 22152.8 KB)
+0417.513 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.3 MB, 1802 files batched, 276 (1141) added so far); re-opening (prior size: 22152.8 KB)
+0429.422 (0) The time we have been running (428.8) is approaching the resumption interval (446) - increasing resumption interval to 459
+0429.654 (0) A useful amount of data was added after this amount of zip processing: 13.4 s (normalised: 13.3 s, rate: 1927.9 KB/s)
+0429.937 (0) The time we have been running (429.5) is approaching the resumption interval (459) - increasing resumption interval to 460
+0430.057 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip.tmp: 1200 files added (on-disk size: 47771.4 KB)
+0430.171 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip.tmp: 1300 files added (on-disk size: 47771.4 KB)
+0430.376 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip.tmp: 1400 files added (on-disk size: 47771.4 KB)
+0430.412 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.4 MB, 1802 files batched, 264 (1405) added so far); re-opening (prior size: 47771.4 KB)
+0449.446 (0) The time we have been running (448.8) is approaching the resumption interval (460) - increasing resumption interval to 479
+0449.572 (0) A useful amount of data was added after this amount of zip processing: 20.3 s (normalised: 20 s, rate: 1280.3 KB/s)
+0449.788 (0) The time we have been running (449.4) is approaching the resumption interval (479) - increasing resumption interval to 480
+0450.002 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip.tmp: 1500 files added (on-disk size: 70382.2 KB)
+0450.283 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip.tmp: 1600 files added (on-disk size: 70382.2 KB)
+0450.466 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip.tmp: 1700 files added (on-disk size: 70382.2 KB)
+0450.616 (0) Zip: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip.tmp: 1800 files added (on-disk size: 70382.2 KB)
+0466.653 (0) The time we have been running (466.1) is approaching the resumption interval (480) - increasing resumption interval to 497
+0467.809 (0) Created uploads zip (0) - 79678.3 KB in 79.5 s (1002.3 KB/s) (sha1: 87d1a2ece8ff87885cf6209fa6e1a9ce38bb6487, sha256: 745b5d6d9c530cc91608779741af90540ac61b1c74ae9d124cf9cc3fdb56a3a6)
+0467.953 (0) Beginning backup of other directories found in the content directory (index: 0)
+0468.059 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0468.142 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content
+0468.201 (0) finding files: index.php: adding to list (1)
+0468.320 (0) finding files: plugins: skipping: this is the plugins directory
+0468.403 (0) finding files: temp-write-test-1532702303: adding to list (2)
+0468.445 (0) finding files: temp-write-test-1533026355: adding to list (3)
+0468.503 (0) finding files: temp-write-test-1533026532: adding to list (4)
+0468.537 (0) finding files: temp-write-test-1533027243: adding to list (5)
+0468.567 (0) finding files: temp-write-test-1533028065: adding to list (6)
+0468.676 (0) finding files: temp-write-test-1533079728: adding to list (7)
+0468.731 (0) finding files: temp-write-test-1534512404: adding to list (8)
+0468.767 (0) finding files: themes: skipping: this is the themes directory
+0468.812 (0) finding files: updraft: skipping: this is the updraft directory
+0468.861 (0) finding files: upgrade: skipping: excluded by options
+0468.967 (0) finding files: uploads: skipping: this is the uploads directory
+0469.476 (0) Total entities for the zip file: 0 directories, 8 files (0 skipped as non-modified), 0 MB
+0469.809 (0) The time we have been running (469.4) is approaching the resumption interval (497) - increasing resumption interval to 500
+0470.029 (0) Created others zip (0) - 1 KB in 1 s (1 KB/s) (sha1: 942d22abc0698177197d6cdc4fc2fd54f2eaba1b, sha256: 1b33a57b5a25bde283dc096f0d722340f4499e6b3ce4927bdff724c0af6928d2)
+0470.474 (0) Saving backup status to database (elements: 8)
+0470.701 (0) Beginning creation of database dump (WordPress DB)
+0471.608 (0) Table wp_options: Total expected rows (approximate): 811
+0472.207 (0) Table wp_options: Total rows added: 822 in 0.57 seconds
+0472.520 (0) Table wp_options: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_options.table.gz - 226.6 KB)
+0472.803 (0) The time we have been running (472.4) is approaching the resumption interval (500) - increasing resumption interval to 503
+0473.104 (0) Table wp_users: Total expected rows (approximate): 1
+0473.332 (0) Table wp_users: Total rows added: 4 in 0.05 seconds
+0473.381 (0) Table wp_users: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_users.table.gz - 0.8 KB)
+0473.667 (0) The time we have been running (473.2) is approaching the resumption interval (503) - increasing resumption interval to 504
+0473.902 (0) Table wp_usermeta: Total expected rows (approximate): 166
+0474.024 (0) Table wp_usermeta: Total rows added: 168 in 0.07 seconds
+0474.082 (0) Table wp_usermeta: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_usermeta.table.gz - 3.3 KB)
+0474.460 (0) Table wp_commentmeta: Total expected rows (approximate): 204
+0474.579 (0) Table wp_commentmeta: Total rows added: 212 in 0.05 seconds
+0474.623 (0) Table wp_commentmeta: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_commentmeta.table.gz - 1.4 KB)
+0474.883 (0) The time we have been running (474.5) is approaching the resumption interval (504) - increasing resumption interval to 505
+0475.225 (0) Table wp_comments: Total expected rows (approximate): 107
+0475.481 (0) Table wp_comments: Total rows added: 112 in 0.07 seconds
+0475.560 (0) Table wp_comments: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_comments.table.gz - 3.7 KB)
+0475.921 (0) The time we have been running (475.5) is approaching the resumption interval (505) - increasing resumption interval to 506
+0476.379 (0) Table wp_links: Total expected rows (approximate): 0
+0476.428 (0) Table wp_links: Total rows added: 0 in 0.02 seconds
+0476.500 (0) Table wp_links: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_links.table.gz - 0.4 KB)
+0476.733 (0) The time we have been running (476.3) is approaching the resumption interval (506) - increasing resumption interval to 507
+0476.882 (0) Table wp_postmeta: Total expected rows (approximate): 4385
+0477.684 (0) Table wp_postmeta: Total rows added: 4794 in 0.71 seconds
+0477.725 (0) Table wp_postmeta: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_postmeta.table.gz - 56.1 KB)
+0477.946 (0) The time we have been running (477.6) is approaching the resumption interval (507) - increasing resumption interval to 508
+0478.168 (0) Table wp_posts: Total expected rows (approximate): 608
+0478.638 (0) Table wp_posts: Total rows added: 600 in 0.41 seconds
+0478.700 (0) Table wp_posts: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_posts.table.gz - 50.5 KB)
+0479.041 (0) The time we have been running (478.5) is approaching the resumption interval (508) - increasing resumption interval to 509
+0479.342 (0) Table wp_term_relationships: Total expected rows (approximate): 481
+0479.529 (0) Table wp_term_relationships: Total rows added: 468 in 0.13 seconds
+0479.590 (0) Table wp_term_relationships: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_term_relationships.table.gz - 1.6 KB)
+0479.824 (0) The time we have been running (479.4) is approaching the resumption interval (509) - increasing resumption interval to 510
+0479.950 (0) Table wp_term_taxonomy: Total expected rows (approximate): 197
+0480.020 (0) Table wp_term_taxonomy: Total rows added: 205 in 0.04 seconds
+0480.123 (0) Table wp_term_taxonomy: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_term_taxonomy.table.gz - 1.8 KB)
+0480.316 (0) Table wp_termmeta: Total expected rows (approximate): 571
+0480.506 (0) Table wp_termmeta: Total rows added: 582 in 0.06 seconds
+0480.599 (0) Table wp_termmeta: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_termmeta.table.gz - 3.6 KB)
+0480.938 (0) The time we have been running (480.6) is approaching the resumption interval (510) - increasing resumption interval to 511
+0481.161 (0) Table wp_terms: Total expected rows (approximate): 201
+0481.313 (0) Table wp_terms: Total rows added: 208 in 0.06 seconds
+0481.471 (0) Table wp_terms: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_terms.table.gz - 3.1 KB)
+0481.699 (0) The time we have been running (481.3) is approaching the resumption interval (511) - increasing resumption interval to 512
+0482.082 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0482.154 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 0 in 0.03 seconds
+0482.209 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0482.563 (0) The time we have been running (482.1) is approaching the resumption interval (512) - increasing resumption interval to 513
+0482.817 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0482.868 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.01 seconds
+0482.972 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0483.041 (0) Skipping table (lacks our prefix (wp_)): ad_money
+0483.105 (0) Skipping table (lacks our prefix (wp_)): homead
+0483.163 (0) Skipping table (lacks our prefix (wp_)): homead2
+0483.505 (0) Table wp_awpcp_ad_regions: Total expected rows (approximate): 0
+0483.601 (0) Table wp_awpcp_ad_regions: Total rows added: 0 in 0.04 seconds
+0483.739 (0) Table wp_awpcp_ad_regions: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_awpcp_ad_regions.table.gz - 0.4 KB)
+0484.091 (0) The time we have been running (483.6) is approaching the resumption interval (513) - increasing resumption interval to 514
+0484.276 (0) Table wp_awpcp_adfees: Total expected rows (approximate): 1
+0484.361 (0) Table wp_awpcp_adfees: Total rows added: 1 in 0.05 seconds
+0484.526 (0) Table wp_awpcp_adfees: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_awpcp_adfees.table.gz - 0.6 KB)
+0484.857 (0) The time we have been running (484.5) is approaching the resumption interval (514) - increasing resumption interval to 515
+0485.105 (0) Table wp_awpcp_admeta: Total expected rows (approximate): 0
+0485.145 (0) Table wp_awpcp_admeta: Total rows added: 0 in 0.01 seconds
+0485.197 (0) Table wp_awpcp_admeta: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_awpcp_admeta.table.gz - 0.3 KB)
+0485.482 (0) The time we have been running (485) is approaching the resumption interval (515) - increasing resumption interval to 516
+0485.717 (0) Table wp_awpcp_ads: Total expected rows (approximate): 0
+0485.759 (0) Table wp_awpcp_ads: Total rows added: 0 in 0.01 seconds
+0485.858 (0) Table wp_awpcp_ads: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_awpcp_ads.table.gz - 0.7 KB)
+0485.997 (0) Table wp_awpcp_categories: Total expected rows (approximate): 1
+0486.045 (0) Table wp_awpcp_categories: Total rows added: 1 in 0.01 seconds
+0486.143 (0) Table wp_awpcp_categories: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_awpcp_categories.table.gz - 0.4 KB)
+0486.290 (0) Table wp_awpcp_credit_plans: Total expected rows (approximate): 0
+0486.429 (0) Table wp_awpcp_credit_plans: Total rows added: 0 in 0.10 seconds
+0486.558 (0) Table wp_awpcp_credit_plans: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_awpcp_credit_plans.table.gz - 0.4 KB)
+0486.790 (0) The time we have been running (486.4) is approaching the resumption interval (516) - increasing resumption interval to 517
+0487.009 (0) Table wp_awpcp_media: Total expected rows (approximate): 0
+0487.048 (0) Table wp_awpcp_media: Total rows added: 0 in 0.01 seconds
+0487.169 (0) Table wp_awpcp_media: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_awpcp_media.table.gz - 0.4 KB)
+0487.313 (0) The time we have been running (487) is approaching the resumption interval (517) - increasing resumption interval to 518
+0487.634 (0) Table wp_awpcp_payments: Total expected rows (approximate): 0
+0487.707 (0) Table wp_awpcp_payments: Total rows added: 0 in 0.01 seconds
+0487.748 (0) Table wp_awpcp_payments: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_awpcp_payments.table.gz - 0.4 KB)
+0487.934 (0) Table wp_awpcp_tasks: Total expected rows (approximate): 0
+0487.990 (0) Table wp_awpcp_tasks: Total rows added: 0 in 0.01 seconds
+0488.039 (0) Table wp_awpcp_tasks: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_awpcp_tasks.table.gz - 0.4 KB)
+0488.357 (0) Table wp_classified_maker_wishlist: Total expected rows (approximate): 0
+0488.438 (0) Table wp_classified_maker_wishlist: Total rows added: 0 in 0.04 seconds
+0488.692 (0) Table wp_classified_maker_wishlist: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_classified_maker_wishlist.table.gz - 0.3 KB)
+0489.007 (0) The time we have been running (488.5) is approaching the resumption interval (518) - increasing resumption interval to 519
+0489.274 (0) Table wp_dokan_announcement: Total expected rows (approximate): 0
+0489.429 (0) Table wp_dokan_announcement: Total rows added: 0 in 0.06 seconds
+0489.627 (0) Table wp_dokan_announcement: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_dokan_announcement.table.gz - 0.3 KB)
+0490.165 (0) The time we have been running (489.7) is approaching the resumption interval (519) - increasing resumption interval to 520
+0490.423 (0) Table wp_dokan_orders: Total expected rows (approximate): 0
+0490.665 (0) Table wp_dokan_orders: Total rows added: 0 in 0.05 seconds
+0491.057 (0) Table wp_dokan_orders: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_dokan_orders.table.gz - 0.3 KB)
+0491.273 (0) The time we have been running (490.9) is approaching the resumption interval (520) - increasing resumption interval to 521
+0491.557 (0) Table wp_dokan_refund: Total expected rows (approximate): 0
+0491.801 (0) Table wp_dokan_refund: Total rows added: 0 in 0.07 seconds
+0491.850 (0) Table wp_dokan_refund: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_dokan_refund.table.gz - 0.4 KB)
+0492.132 (0) The time we have been running (491.8) is approaching the resumption interval (521) - increasing resumption interval to 522
+0492.549 (0) Table wp_dokan_shipping_zone_locations: Total expected rows (approximate): 0
+0492.631 (0) Table wp_dokan_shipping_zone_locations: Total rows added: 0 in 0.01 seconds
+0492.731 (0) Table wp_dokan_shipping_zone_locations: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_dokan_shipping_zone_locations.table.gz - 0.3 KB)
+0492.964 (0) The time we have been running (492.6) is approaching the resumption interval (522) - increasing resumption interval to 523
+0493.229 (0) Table wp_dokan_shipping_zone_methods: Total expected rows (approximate): 0
+0493.272 (0) Table wp_dokan_shipping_zone_methods: Total rows added: 0 in 0.01 seconds
+0493.314 (0) Table wp_dokan_shipping_zone_methods: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_dokan_shipping_zone_methods.table.gz - 0.3 KB)
+0493.731 (0) The time we have been running (493.2) is approaching the resumption interval (523) - increasing resumption interval to 524
+0493.934 (0) Table wp_dokan_vendor_balance: Total expected rows (approximate): 0
+0494.015 (0) Table wp_dokan_vendor_balance: Total rows added: 0 in 0.04 seconds
+0494.105 (0) Table wp_dokan_vendor_balance: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_dokan_vendor_balance.table.gz - 0.4 KB)
+0494.361 (0) Table wp_dokan_withdraw: Total expected rows (approximate): 0
+0494.432 (0) Table wp_dokan_withdraw: Total rows added: 0 in 0.01 seconds
+0494.474 (0) Table wp_dokan_withdraw: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_dokan_withdraw.table.gz - 0.4 KB)
+0495.031 (0) The time we have been running (494.5) is approaching the resumption interval (524) - increasing resumption interval to 525
+0495.322 (0) Table wp_revslider_css: Total expected rows (approximate): 102
+0495.716 (0) Table wp_revslider_css: Total rows added: 112 in 0.33 seconds
+0495.825 (0) Table wp_revslider_css: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_revslider_css.table.gz - 5 KB)
+0496.190 (0) The time we have been running (495.8) is approaching the resumption interval (525) - increasing resumption interval to 526
+0496.420 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0496.522 (0) Table wp_revslider_layer_animations: Total rows added: 0 in 0.06 seconds
+0496.821 (0) Table wp_revslider_layer_animations: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_revslider_layer_animations.table.gz - 0.3 KB)
+0497.264 (0) The time we have been running (496.8) is approaching the resumption interval (526) - increasing resumption interval to 527
+0497.422 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0497.469 (0) Table wp_revslider_navigations: Total rows added: 0 in 0.01 seconds
+0497.591 (0) Table wp_revslider_navigations: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_revslider_navigations.table.gz - 0.3 KB)
+0498.014 (0) The time we have been running (497.5) is approaching the resumption interval (527) - increasing resumption interval to 528
+0498.244 (0) Table wp_revslider_sliders: Total expected rows (approximate): 3
+0498.336 (0) Table wp_revslider_sliders: Total rows added: 4 in 0.06 seconds
+0498.392 (0) Table wp_revslider_sliders: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_revslider_sliders.table.gz - 4.3 KB)
+0498.731 (0) The time we have been running (498.3) is approaching the resumption interval (528) - increasing resumption interval to 529
+0498.886 (0) Table wp_revslider_slides: Total expected rows (approximate): 4
+0499.162 (0) Table wp_revslider_slides: Total rows added: 10 in 0.24 seconds
+0499.373 (0) Table wp_revslider_slides: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_revslider_slides.table.gz - 14.4 KB)
+0499.773 (0) The time we have been running (499.2) is approaching the resumption interval (529) - increasing resumption interval to 530
+0499.932 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0500.064 (0) Table wp_revslider_static_slides: Total rows added: 1 in 0.01 seconds
+0500.147 (0) Table wp_revslider_static_slides: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_revslider_static_slides.table.gz - 0.4 KB)
+0500.545 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0500.804 (0) Table wp_wc_download_log: Total rows added: 0 in 0.08 seconds
+0500.957 (0) Table wp_wc_download_log: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_wc_download_log.table.gz - 0.4 KB)
+0501.164 (0) The time we have been running (500.8) is approaching the resumption interval (530) - increasing resumption interval to 531
+0501.466 (0) Table wp_wc_webhooks: Total expected rows (approximate): 0
+0501.543 (0) Table wp_wc_webhooks: Total rows added: 0 in 0.01 seconds
+0501.678 (0) Table wp_wc_webhooks: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_wc_webhooks.table.gz - 0.5 KB)
+0502.524 (0) The time we have been running (501.7) is approaching the resumption interval (531) - increasing resumption interval to 532
+0503.619 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0503.885 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.02 seconds
+0504.056 (0) Table wp_woocommerce_api_keys: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0504.389 (0) The time we have been running (503.9) is approaching the resumption interval (532) - increasing resumption interval to 534
+0504.580 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 2
+0504.682 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 2 in 0.05 seconds
+0504.898 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0505.297 (0) The time we have been running (504.7) is approaching the resumption interval (534) - increasing resumption interval to 535
+0505.554 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0505.676 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.07 seconds
+0505.882 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0506.372 (0) The time we have been running (505.9) is approaching the resumption interval (535) - increasing resumption interval to 536
+0506.664 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0506.974 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.19 seconds
+0507.175 (0) Table wp_woocommerce_log: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0507.380 (0) The time we have been running (507) is approaching the resumption interval (536) - increasing resumption interval to 537
+0507.548 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 0
+0507.786 (0) Table wp_woocommerce_order_items: Total rows added: 0 in 0.14 seconds
+0507.848 (0) Table wp_woocommerce_order_items: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_order_items.table.gz - 0.3 KB)
+0508.022 (0) The time we have been running (507.7) is approaching the resumption interval (537) - increasing resumption interval to 538
+0508.264 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0508.469 (0) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.09 seconds
+0508.540 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0508.730 (0) The time we have been running (508.4) is approaching the resumption interval (538) - increasing resumption interval to 539
+0509.053 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 1
+0509.115 (0) Table wp_woocommerce_sessions: Total rows added: 1 in 0.01 seconds
+0509.158 (0) Table wp_woocommerce_sessions: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_sessions.table.gz - 1.3 KB)
+0509.395 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0509.457 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 1 in 0.01 seconds
+0509.511 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0509.814 (0) The time we have been running (509.3) is approaching the resumption interval (539) - increasing resumption interval to 540
+0510.133 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 2
+0510.334 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 2 in 0.10 seconds
+0510.428 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0510.714 (0) The time we have been running (510.4) is approaching the resumption interval (540) - increasing resumption interval to 541
+0511.128 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0511.556 (0) Table wp_woocommerce_shipping_zones: Total rows added: 1 in 0.04 seconds
+0511.634 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_shipping_zones.table.gz - 0.4 KB)
+0512.046 (0) The time we have been running (511.5) is approaching the resumption interval (541) - increasing resumption interval to 542
+0512.275 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0512.564 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.02 seconds
+0512.653 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0513.005 (0) The time we have been running (512.5) is approaching the resumption interval (542) - increasing resumption interval to 543
+0513.440 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0513.541 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.01 seconds
+0513.675 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0514.105 (0) The time we have been running (513.5) is approaching the resumption interval (543) - increasing resumption interval to 544
+0514.336 (0) Table wp_wpdatacharts: Total expected rows (approximate): 0
+0514.416 (0) Table wp_wpdatacharts: Total rows added: 0 in 0.04 seconds
+0514.547 (0) Table wp_wpdatacharts: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_wpdatacharts.table.gz - 0.3 KB)
+0514.721 (0) The time we have been running (514.4) is approaching the resumption interval (544) - increasing resumption interval to 545
+0515.152 (0) Table wp_wpdatatables: Total expected rows (approximate): 1
+0515.240 (0) Table wp_wpdatatables: Total rows added: 1 in 0.04 seconds
+0515.345 (0) Table wp_wpdatatables: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_wpdatatables.table.gz - 0.8 KB)
+0515.605 (0) The time we have been running (515.3) is approaching the resumption interval (545) - increasing resumption interval to 546
+0515.917 (0) Table wp_wpdatatables_columns: Total expected rows (approximate): 11
+0515.993 (0) Table wp_wpdatatables_columns: Total rows added: 11 in 0.03 seconds
+0516.128 (0) Table wp_wpdatatables_columns: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_wpdatatables_columns.table.gz - 1.1 KB)
+0516.292 (0) Table wp_yith_wcwl: Total expected rows (approximate): 0
+0516.500 (0) Table wp_yith_wcwl: Total rows added: 0 in 0.03 seconds
+0516.640 (0) Table wp_yith_wcwl: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_yith_wcwl.table.gz - 0.3 KB)
+0517.105 (0) The time we have been running (516.5) is approaching the resumption interval (546) - increasing resumption interval to 547
+0517.236 (0) Table wp_yith_wcwl_lists: Total expected rows (approximate): 2
+0517.410 (0) Table wp_yith_wcwl_lists: Total rows added: 3 in 0.03 seconds
+0517.482 (0) Table wp_yith_wcwl_lists: finishing file (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_yith_wcwl_lists.table.gz - 0.5 KB)
+0517.838 (0) The time we have been running (517.3) is approaching the resumption interval (547) - increasing resumption interval to 548
+0518.126 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_options.table.gz (1/59): adding to final database dump
+0518.227 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_users.table.gz (2/59): adding to final database dump
+0518.323 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_usermeta.table.gz (3/59): adding to final database dump
+0518.453 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_commentmeta.table.gz (4/59): adding to final database dump
+0518.548 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_comments.table.gz (5/59): adding to final database dump
+0518.643 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_links.table.gz (6/59): adding to final database dump
+0518.690 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_postmeta.table.gz (7/59): adding to final database dump
+0518.800 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_posts.table.gz (8/59): adding to final database dump
+0518.887 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_term_relationships.table.gz (9/59): adding to final database dump
+0519.295 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_term_taxonomy.table.gz (10/59): adding to final database dump
+0519.402 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_termmeta.table.gz (11/59): adding to final database dump
+0519.532 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_terms.table.gz (12/59): adding to final database dump
+0519.577 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_order_itemmeta.table.gz (13/59): adding to final database dump
+0519.606 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_payment_tokenmeta.table.gz (14/59): adding to final database dump
+0519.741 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_awpcp_ad_regions.table.gz (15/59): adding to final database dump
+0519.798 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_awpcp_adfees.table.gz (16/59): adding to final database dump
+0519.831 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_awpcp_admeta.table.gz (17/59): adding to final database dump
+0519.918 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_awpcp_ads.table.gz (18/59): adding to final database dump
+0520.015 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_awpcp_categories.table.gz (19/59): adding to final database dump
+0520.047 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_awpcp_credit_plans.table.gz (20/59): adding to final database dump
+0520.089 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_awpcp_media.table.gz (21/59): adding to final database dump
+0520.123 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_awpcp_payments.table.gz (22/59): adding to final database dump
+0520.164 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_awpcp_tasks.table.gz (23/59): adding to final database dump
+0520.255 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_classified_maker_wishlist.table.gz (24/59): adding to final database dump
+0520.315 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_dokan_announcement.table.gz (25/59): adding to final database dump
+0520.365 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_dokan_orders.table.gz (26/59): adding to final database dump
+0520.415 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_dokan_refund.table.gz (27/59): adding to final database dump
+0520.456 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_dokan_shipping_zone_locations.table.gz (28/59): adding to final database dump
+0520.498 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_dokan_shipping_zone_methods.table.gz (29/59): adding to final database dump
+0520.613 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_dokan_vendor_balance.table.gz (30/59): adding to final database dump
+0520.656 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_dokan_withdraw.table.gz (31/59): adding to final database dump
+0520.714 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_revslider_css.table.gz (32/59): adding to final database dump
+0520.771 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_revslider_layer_animations.table.gz (33/59): adding to final database dump
+0520.797 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_revslider_navigations.table.gz (34/59): adding to final database dump
+0520.897 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_revslider_sliders.table.gz (35/59): adding to final database dump
+0521.040 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_revslider_slides.table.gz (36/59): adding to final database dump
+0521.115 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_revslider_static_slides.table.gz (37/59): adding to final database dump
+0521.164 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_wc_download_log.table.gz (38/59): adding to final database dump
+0521.198 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_wc_webhooks.table.gz (39/59): adding to final database dump
+0521.231 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_api_keys.table.gz (40/59): adding to final database dump
+0521.313 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_attribute_taxonomies.table.gz (41/59): adding to final database dump
+0521.340 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (42/59): adding to final database dump
+0521.374 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_log.table.gz (43/59): adding to final database dump
+0521.422 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_order_items.table.gz (44/59): adding to final database dump
+0521.456 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_payment_tokens.table.gz (45/59): adding to final database dump
+0521.490 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_sessions.table.gz (46/59): adding to final database dump
+0521.588 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_shipping_zone_locations.table.gz (47/59): adding to final database dump
+0521.623 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_shipping_zone_methods.table.gz (48/59): adding to final database dump
+0521.673 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_shipping_zones.table.gz (49/59): adding to final database dump
+0521.714 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_tax_rate_locations.table.gz (50/59): adding to final database dump
+0521.756 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_woocommerce_tax_rates.table.gz (51/59): adding to final database dump
+0521.807 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_wpdatacharts.table.gz (52/59): adding to final database dump
+0521.897 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_wpdatatables.table.gz (53/59): adding to final database dump
+0522.156 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_wpdatatables_columns.table.gz (54/59): adding to final database dump
+0522.249 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_yith_wcwl.table.gz (55/59): adding to final database dump
+0522.298 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db-table-wp_yith_wcwl_lists.table.gz (56/59): adding to final database dump
+0522.341 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db.gz: finished writing out complete database file (368 KB)
+0522.647 (0) Total database tables backed up: 56 (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db.gz, size: 390967, sha256)
+0523.056 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0523.114 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0523.156 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0523.214 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-others.zip: others: This file has not yet been successfully uploaded: will queue
+0523.272 (0) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db.gz: db: This file has not yet been successfully uploaded: will queue
+0523.362 (0) Saving backup history. Total backup size: 153.1 MB
+0523.446 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0523.555 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0523.656 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-7ff431e5616f6fbf974f83e90839219a)
+0523.736 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0524.094 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0525.262 (0) Dropbox quota usage: used=304.6 MB, total=2048 MB, available=1743.4 MB
+0525.318 (0) Dropbox: Attempt to upload: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip to: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip
+0562.651 (0) The time we have been running (562.3) is approaching the resumption interval (548) - increasing resumption interval to 593
+0562.853 (0) The scheduled resumption is within 45 seconds - will reschedule
+0563.158 (0) Rescheduling resumption 1: moving to 638 seconds from now (1544510462)
+0563.442 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 593 + 45 = 638
+0563.476 (0) Dropbox chunked upload: 1.8 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 1048576, 1024 KB)
+0606.514 (0) Dropbox chunked upload: 3.6 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 2097152, 1024 KB)
+0642.444 (0) The time we have been running (641.5) is approaching the resumption interval (638) - increasing resumption interval to 672
+0642.578 (0) Dropbox chunked upload: 5.5 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 3145728, 1024 KB)
+0688.264 (0) The time we have been running (687.8) is approaching the resumption interval (672) - increasing resumption interval to 718
+0688.406 (0) Dropbox chunked upload: 7.3 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 4194304, 1024 KB)
+0725.821 (0) The time we have been running (725.4) is approaching the resumption interval (718) - increasing resumption interval to 756
+0725.902 (0) Dropbox chunked upload: 9.1 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 5242880, 1024 KB)
+0793.924 (0) The time we have been running (793.6) is approaching the resumption interval (756) - increasing resumption interval to 824
+0794.110 (0) Dropbox chunked upload: 10.9 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 6291456, 1024 KB)
+0834.179 (0) The time we have been running (832.7) is approaching the resumption interval (824) - increasing resumption interval to 863
+0834.800 (0) Dropbox chunked upload: 12.7 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 7340032, 1024 KB)
+0867.531 (0) The time we have been running (867.1) is approaching the resumption interval (863) - increasing resumption interval to 898
+0867.748 (0) Dropbox chunked upload: 14.5 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 8388608, 1024 KB)
+0890.604 (0) The time we have been running (890.1) is approaching the resumption interval (898) - increasing resumption interval to 921
+0890.763 (0) Dropbox chunked upload: 16.4 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 9437184, 1024 KB)
+0925.176 (0) The time we have been running (924.6) is approaching the resumption interval (921) - increasing resumption interval to 955
+0925.434 (0) Dropbox chunked upload: 18.2 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 10485760, 1024 KB)
+0956.228 (0) The time we have been running (955.2) is approaching the resumption interval (955) - increasing resumption interval to 986
+0956.420 (0) Dropbox chunked upload: 20 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 11534336, 1024 KB)
+0996.711 (0) The time we have been running (996.2) is approaching the resumption interval (986) - increasing resumption interval to 1027
+0996.836 (0) Dropbox chunked upload: 21.8 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 12582912, 1024 KB)
+1029.166 (0) The time we have been running (1028.7) is approaching the resumption interval (1027) - increasing resumption interval to 1059
+1029.267 (0) Dropbox chunked upload: 23.6 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 13631488, 1024 KB)
+1067.279 (0) The time we have been running (1066.7) is approaching the resumption interval (1059) - increasing resumption interval to 1097
+1067.422 (0) Dropbox chunked upload: 25.4 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 14680064, 1024 KB)
+1099.177 (0) The time we have been running (1098.7) is approaching the resumption interval (1097) - increasing resumption interval to 1129
+1099.369 (0) Dropbox chunked upload: 27.3 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 15728640, 1024 KB)
+1132.899 (0) The time we have been running (1132.4) is approaching the resumption interval (1129) - increasing resumption interval to 1163
+1133.116 (0) Dropbox chunked upload: 29.1 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 16777216, 1024 KB)
+1169.421 (0) The time we have been running (1169) is approaching the resumption interval (1163) - increasing resumption interval to 1200
+1169.564 (0) The scheduled resumption is within 45 seconds - will reschedule
+1169.862 (0) Rescheduling resumption 1: moving to 600 seconds from now (1544511031)
+1170.079 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 1200 + 45 = 1245
+1170.104 (0) Dropbox chunked upload: 30.9 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 17825792, 1024 KB)
+1204.817 (0) Dropbox chunked upload: 32.7 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 18874368, 1024 KB)
+1240.156 (0) The time we have been running (1239.8) is approaching the resumption interval (1245) - increasing resumption interval to 1270
+1240.340 (0) Dropbox chunked upload: 34.5 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 19922944, 1024 KB)
+1273.753 (0) The time we have been running (1273.4) is approaching the resumption interval (1270) - increasing resumption interval to 1304
+1273.846 (0) Dropbox chunked upload: 36.3 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 20971520, 1024 KB)
+1293.958 (0) The time we have been running (1293.5) is approaching the resumption interval (1304) - increasing resumption interval to 1324
+1294.044 (0) Dropbox chunked upload: 38.2 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 22020096, 1024 KB)
+1313.791 (0) The time we have been running (1313.4) is approaching the resumption interval (1324) - increasing resumption interval to 1344
+1313.996 (0) Dropbox chunked upload: 40 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 23068672, 1024 KB)
+1348.581 (0) The time we have been running (1348.1) is approaching the resumption interval (1344) - increasing resumption interval to 1379
+1348.698 (0) Dropbox chunked upload: 41.8 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 24117248, 1024 KB)
+1393.217 (0) The time we have been running (1392.7) is approaching the resumption interval (1379) - increasing resumption interval to 1423
+1393.344 (0) Dropbox chunked upload: 43.6 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 25165824, 1024 KB)
+1782.311 (1) Opened log file at time: Tue, 11 Dec 2018 06:50:44 +0000 on http://localhost/wordpress
+1782.343 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.12 WP: 4.9.8 PHP: 5.6.28 (apache2handler, Windows NT DESKTOP-0AS6REA 6.2 build 9200 (Windows 8 Professional Edition) i586) MySQL: 5.5.5 WPLANG: en_US Server: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 67.1M | 67.8M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1782.441 (1) Free space on disk containing Updraft's temporary directory: 104965.7 MB
+1782.566 (1) Backup run: resumption=1, nonce=ee2ef8aba477, begun at=1544509261 (1783s ago), job type=backup, previous check-in=1392.7s
+1782.635 (1) Scheduling a resumption (2) after 1423 seconds (1544512467) in case this run gets aborted
+1782.795 (1) Checking if we have a zip executable available
+1782.816 (1) Creation of backups of directories: already finished
+1782.851 (1) Saving backup status to database (elements: 8)
+1782.908 (1) Database dump (WordPress DB): Creation was completed already
+1783.008 (1) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1783.033 (1) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1783.057 (1) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1783.166 (1) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-others.zip: others: This file has not yet been successfully uploaded: will queue
+1783.291 (1) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db.gz: db: This file has not yet been successfully uploaded: will queue
+1783.324 (1) Saving backup history. Total backup size: 153.1 MB
+1783.402 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+1783.441 (1) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+1783.508 (1) Beginning dispatch of backup to remote (dropbox) (instance identifier s-7ff431e5616f6fbf974f83e90839219a)
+1783.549 (1) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+1783.751 (1) Dropbox: access gained; setting chunk size to: 1024 KB
+1784.677 (1) Dropbox quota usage: used=304.6 MB, total=2048 MB, available=1743.4 MB
+1784.727 (1) This is a resumption: 25165824 bytes had already been uploaded
+1784.782 (1) Dropbox: Attempt to upload: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip to: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip
+1810.641 (1) Dropbox chunked upload exception (Exception): Submitted input out of alignment: got [25165824] expected [26214400] (line: 200, file: C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Dropbox2\API.php)
+1810.689 (1) Dropbox not yet aligned: tried=25165824, wanted=26214400; will attempt recovery
+1839.631 (1) Dropbox chunked upload: 47.2 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 27262976, 1024 KB)
+1870.350 (1) Dropbox chunked upload: 49.1 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 28311552, 1024 KB)
+1899.464 (1) Dropbox chunked upload: 50.9 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 29360128, 1024 KB)
+1926.137 (1) Dropbox chunked upload: 52.7 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 30408704, 1024 KB)
+1955.046 (1) Dropbox chunked upload: 54.5 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 31457280, 1024 KB)
+1981.396 (1) Dropbox chunked upload: 56.3 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 32505856, 1024 KB)
+2006.696 (1) Dropbox chunked upload: 58.1 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 33554432, 1024 KB)
+2028.569 (1) Dropbox chunked upload: 60 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 34603008, 1024 KB)
+2056.417 (1) Dropbox chunked upload: 61.8 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 35651584, 1024 KB)
+2085.456 (1) Dropbox chunked upload: 63.6 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 36700160, 1024 KB)
+2111.377 (1) Dropbox chunked upload: 65.4 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 37748736, 1024 KB)
+2143.584 (1) Dropbox chunked upload: 67.2 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 38797312, 1024 KB)
+2163.457 (1) Dropbox chunked upload: 69 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 39845888, 1024 KB)
+2188.296 (1) Dropbox chunked upload: 70.9 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 40894464, 1024 KB)
+2213.802 (1) Dropbox chunked upload: 72.7 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 41943040, 1024 KB)
+2233.809 (1) Dropbox chunked upload: 74.5 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 42991616, 1024 KB)
+2262.306 (1) Dropbox chunked upload: 76.3 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 44040192, 1024 KB)
+2287.421 (1) Dropbox chunked upload: 78.1 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 45088768, 1024 KB)
+2313.185 (1) Dropbox chunked upload: 79.9 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 46137344, 1024 KB)
+2334.083 (1) Dropbox chunked upload: 81.8 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 47185920, 1024 KB)
+2369.089 (1) Dropbox chunked upload: 83.6 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 48234496, 1024 KB)
+2407.243 (1) Dropbox chunked upload: 85.4 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 49283072, 1024 KB)
+2423.375 (1) Dropbox chunked upload: 87.2 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 50331648, 1024 KB)
+2444.890 (1) Dropbox chunked upload: 89 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 51380224, 1024 KB)
+2462.680 (1) Dropbox chunked upload: 90.8 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 52428800, 1024 KB)
+2490.820 (1) Dropbox chunked upload: 92.7 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 53477376, 1024 KB)
+2517.875 (1) Dropbox chunked upload: 94.5 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 54525952, 1024 KB)
+2540.448 (1) Dropbox chunked upload: 96.3 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 55574528, 1024 KB)
+2557.214 (1) Dropbox chunked upload: 98.1 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 56623104, 1024 KB)
+2580.728 (1) Dropbox chunked upload: 99.9 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 57671680, 1024 KB)
+2586.020 (1) Dropbox chunked upload: 100 % uploaded (AAAAAAAAACWBOHTI9y1p-A, 57714025, 1024 KB)
+2588.043 (1) Recording as successfully uploaded: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip (869bc8815a791530dedc2aaf1a0cc6d5)
+2588.444 (1) Deleting local file: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip: failed
+2588.552 (1) Dropbox: File upload success (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip): 56361 KB in 803s (70 KB/s)
+2589.937 (1) Dropbox quota usage: used=359.6 MB, total=2048 MB, available=1688.4 MB
+2590.044 (1) Dropbox: Attempt to upload: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-themes.zip to: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-themes.zip
+2617.683 (1) Dropbox chunked upload: 5 % uploaded (AAAAAAAAACYKRiK6f2NADg, 1048576, 1024 KB)
+2638.675 (1) Dropbox chunked upload: 10.1 % uploaded (AAAAAAAAACYKRiK6f2NADg, 2097152, 1024 KB)
+2665.255 (1) Dropbox chunked upload: 15.1 % uploaded (AAAAAAAAACYKRiK6f2NADg, 3145728, 1024 KB)
+3209.956 (2) Opened log file at time: Tue, 11 Dec 2018 07:14:31 +0000 on http://localhost/wordpress
+3210.093 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.12 WP: 4.9.8 PHP: 5.6.28 (apache2handler, Windows NT DESKTOP-0AS6REA 6.2 build 9200 (Windows 8 Professional Edition) i586) MySQL: 5.5.5 WPLANG: en_US Server: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 67.1M | 68M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+3210.133 (2) Free space on disk containing Updraft's temporary directory: 104958.3 MB
+3210.196 (2) Backup run: resumption=2, nonce=ee2ef8aba477, begun at=1544509261 (3210s ago), job type=backup, previous check-in=882.9s
+3210.258 (2) Scheduling a resumption (3) after 1423 seconds (1544513895) in case this run gets aborted
+3210.602 (2) Checking if we have a zip executable available
+3210.650 (2) Creation of backups of directories: already finished
+3210.728 (2) Saving backup status to database (elements: 8)
+3210.953 (2) Database dump (WordPress DB): Creation was completed already
+3211.188 (2) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip: plugins: This file has already been successfully uploaded
+3211.226 (2) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3211.247 (2) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3211.276 (2) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-others.zip: others: This file has not yet been successfully uploaded: will queue
+3211.456 (2) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db.gz: db: This file has not yet been successfully uploaded: will queue
+3211.579 (2) Saving backup history. Total backup size: 153.1 MB
+3211.650 (2) Requesting upload of the files that have not yet been successfully uploaded (4)
+3211.680 (2) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+3211.774 (2) Beginning dispatch of backup to remote (dropbox) (instance identifier s-7ff431e5616f6fbf974f83e90839219a)
+3211.813 (2) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+3212.167 (2) Dropbox: access gained; setting chunk size to: 1024 KB
+3213.489 (2) Dropbox quota usage: used=359.6 MB, total=2048 MB, available=1688.4 MB
+3213.554 (2) This is a resumption: 3145728 bytes had already been uploaded
+3213.579 (2) Dropbox: Attempt to upload: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-themes.zip to: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-themes.zip
+3230.242 (2) Dropbox chunked upload exception (Exception): Submitted input out of alignment: got [3145728] expected [4194304] (line: 200, file: C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Dropbox2\API.php)
+3230.294 (2) Dropbox not yet aligned: tried=3145728, wanted=4194304; will attempt recovery
+3249.147 (2) Dropbox chunked upload: 25.1 % uploaded (AAAAAAAAACYKRiK6f2NADg, 5242880, 1024 KB)
+3277.323 (2) Dropbox chunked upload: 30.2 % uploaded (AAAAAAAAACYKRiK6f2NADg, 6291456, 1024 KB)
+3307.570 (2) Dropbox chunked upload: 35.2 % uploaded (AAAAAAAAACYKRiK6f2NADg, 7340032, 1024 KB)
+3327.436 (2) Dropbox chunked upload: 40.2 % uploaded (AAAAAAAAACYKRiK6f2NADg, 8388608, 1024 KB)
+3348.326 (2) Dropbox chunked upload: 45.2 % uploaded (AAAAAAAAACYKRiK6f2NADg, 9437184, 1024 KB)
+3377.749 (2) Dropbox chunked upload: 50.3 % uploaded (AAAAAAAAACYKRiK6f2NADg, 10485760, 1024 KB)
+3405.262 (2) Dropbox chunked upload: 55.3 % uploaded (AAAAAAAAACYKRiK6f2NADg, 11534336, 1024 KB)
+3428.510 (2) Dropbox chunked upload: 60.3 % uploaded (AAAAAAAAACYKRiK6f2NADg, 12582912, 1024 KB)
+3449.799 (2) Dropbox chunked upload: 65.3 % uploaded (AAAAAAAAACYKRiK6f2NADg, 13631488, 1024 KB)
+3476.572 (2) Dropbox chunked upload: 70.4 % uploaded (AAAAAAAAACYKRiK6f2NADg, 14680064, 1024 KB)
+3503.420 (2) Dropbox chunked upload: 75.4 % uploaded (AAAAAAAAACYKRiK6f2NADg, 15728640, 1024 KB)
+3533.181 (2) Dropbox chunked upload: 80.4 % uploaded (AAAAAAAAACYKRiK6f2NADg, 16777216, 1024 KB)
+3570.339 (2) Dropbox chunked upload: 85.4 % uploaded (AAAAAAAAACYKRiK6f2NADg, 17825792, 1024 KB)
+3596.054 (2) Dropbox chunked upload: 90.5 % uploaded (AAAAAAAAACYKRiK6f2NADg, 18874368, 1024 KB)
+3620.102 (2) Dropbox chunked upload: 95.5 % uploaded (AAAAAAAAACYKRiK6f2NADg, 19922944, 1024 KB)
+3641.449 (2) Dropbox chunked upload: 100 % uploaded (AAAAAAAAACYKRiK6f2NADg, 20863022, 1024 KB)
+3643.815 (2) Recording as successfully uploaded: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-themes.zip (0e64958afb77e79c4b9f9b9c063edec6)
+3644.234 (2) Deleting local file: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-themes.zip: OK
+3644.314 (2) Dropbox: File upload success (backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-themes.zip): 20374 KB in 430s (47 KB/s)
+3645.980 (2) Dropbox quota usage: used=379.5 MB, total=2048 MB, available=1668.5 MB
+3646.071 (2) Dropbox: Attempt to upload: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip to: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip
+3670.971 (2) Dropbox chunked upload: 1.3 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 1048576, 1024 KB)
+3698.310 (2) Dropbox chunked upload: 2.6 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 2097152, 1024 KB)
+3724.300 (2) Dropbox chunked upload: 3.9 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 3145728, 1024 KB)
+3745.765 (2) Dropbox chunked upload: 5.1 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 4194304, 1024 KB)
+3768.954 (2) Dropbox chunked upload: 6.4 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 5242880, 1024 KB)
+3794.162 (2) Dropbox chunked upload: 7.7 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 6291456, 1024 KB)
+3826.288 (2) Dropbox chunked upload: 9 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 7340032, 1024 KB)
+3888.836 (2) Dropbox chunked upload: 10.3 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 8388608, 1024 KB)
+3917.785 (2) Dropbox chunked upload: 11.6 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 9437184, 1024 KB)
+3934.933 (2) Dropbox chunked upload: 12.9 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 10485760, 1024 KB)
+3961.605 (2) Dropbox chunked upload: 14.1 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 11534336, 1024 KB)
+3992.169 (2) Dropbox chunked upload: 15.4 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 12582912, 1024 KB)
+4016.926 (2) Dropbox chunked upload: 16.7 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 13631488, 1024 KB)
+4040.430 (2) Dropbox chunked upload: 18 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 14680064, 1024 KB)
+4071.886 (2) Dropbox chunked upload: 19.3 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 15728640, 1024 KB)
+4737.475 (3) Opened log file at time: Tue, 11 Dec 2018 07:39:59 +0000 on http://localhost/wordpress
+4737.503 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.12 WP: 4.9.8 PHP: 5.6.28 (apache2handler, Windows NT DESKTOP-0AS6REA 6.2 build 9200 (Windows 8 Professional Edition) i586) MySQL: 5.5.5 WPLANG: en_US Server: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 67.2M | 68.5M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+4737.526 (3) Free space on disk containing Updraft's temporary directory: 104981.7 MB
+4737.678 (3) Backup run: resumption=3, nonce=ee2ef8aba477, begun at=1544509261 (4738s ago), job type=backup, previous check-in=861.9s
+4737.745 (3) Scheduling a resumption (4) after 1423 seconds (1544515422) in case this run gets aborted
+4737.865 (3) Checking if we have a zip executable available
+4737.995 (3) Creation of backups of directories: already finished
+4738.267 (3) Saving backup status to database (elements: 8)
+4738.626 (3) Database dump (WordPress DB): Creation was completed already
+4738.862 (3) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-plugins.zip: plugins: This file has already been successfully uploaded
+4738.928 (3) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-themes.zip: themes: This file has already been successfully uploaded
+4738.978 (3) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4739.028 (3) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-others.zip: others: This file has not yet been successfully uploaded: will queue
+4739.102 (3) backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-db.gz: db: This file has not yet been successfully uploaded: will queue
+4739.125 (3) Saving backup history. Total backup size: 153.1 MB
+4739.220 (3) Requesting upload of the files that have not yet been successfully uploaded (3)
+4739.268 (3) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+4739.413 (3) Beginning dispatch of backup to remote (dropbox) (instance identifier s-7ff431e5616f6fbf974f83e90839219a)
+4739.521 (3) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+4739.825 (3) Dropbox: access gained; setting chunk size to: 1024 KB
+4741.035 (3) Dropbox quota usage: used=379.5 MB, total=2048 MB, available=1668.5 MB
+4741.059 (3) This is a resumption: 15728640 bytes had already been uploaded
+4741.084 (3) Dropbox: Attempt to upload: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip to: backup_2018-12-11-0621_ArafaMooncom_ee2ef8aba477-uploads.zip
+4761.816 (3) Dropbox chunked upload exception (Exception): Submitted input out of alignment: got [15728640] expected [16777216] (line: 200, file: C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Dropbox2\API.php)
+4761.849 (3) Dropbox not yet aligned: tried=15728640, wanted=16777216; will attempt recovery
+4787.455 (3) Dropbox chunked upload: 21.8 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 17825792, 1024 KB)
+4808.003 (3) Dropbox chunked upload: 23.1 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 18874368, 1024 KB)
+4827.526 (3) Dropbox chunked upload: 24.4 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 19922944, 1024 KB)
+4855.999 (3) Dropbox chunked upload: 25.7 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 20971520, 1024 KB)
+4875.525 (3) Dropbox chunked upload: 27 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 22020096, 1024 KB)
+4945.532 (3) Dropbox chunked upload: 28.3 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 23068672, 1024 KB)
+4974.617 (3) Dropbox chunked upload: 29.6 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 24117248, 1024 KB)
+4991.728 (3) Dropbox chunked upload: 30.8 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 25165824, 1024 KB)
+5018.976 (3) Dropbox chunked upload: 32.1 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 26214400, 1024 KB)
+5048.715 (3) Dropbox chunked upload: 33.4 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 27262976, 1024 KB)
+5087.978 (3) Dropbox chunked upload: 34.7 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 28311552, 1024 KB)
+5112.551 (3) Dropbox chunked upload: 36 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 29360128, 1024 KB)
+5133.416 (3) Dropbox chunked upload: 37.3 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 30408704, 1024 KB)
+5151.028 (3) Dropbox chunked upload: 38.6 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 31457280, 1024 KB)
+5166.346 (3) Dropbox chunked upload: 39.8 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 32505856, 1024 KB)
+5184.019 (3) Dropbox chunked upload: 41.1 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 33554432, 1024 KB)
+5205.276 (3) Dropbox chunked upload: 42.4 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 34603008, 1024 KB)
+5226.299 (3) Dropbox chunked upload: 43.7 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 35651584, 1024 KB)
+5247.505 (3) Dropbox chunked upload: 45 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 36700160, 1024 KB)
+5266.670 (3) Dropbox chunked upload: 46.3 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 37748736, 1024 KB)
+5287.168 (3) Dropbox chunked upload: 47.6 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 38797312, 1024 KB)
+5316.341 (3) Dropbox chunked upload: 48.8 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 39845888, 1024 KB)
+5337.614 (3) Dropbox chunked upload: 50.1 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 40894464, 1024 KB)
+5379.468 (3) Dropbox chunked upload: 51.4 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 41943040, 1024 KB)
+5402.008 (3) Dropbox chunked upload: 52.7 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 42991616, 1024 KB)
+5427.598 (3) Dropbox chunked upload: 54 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 44040192, 1024 KB)
+5464.953 (3) Dropbox chunked upload: 55.3 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 45088768, 1024 KB)
+5489.183 (3) Dropbox chunked upload: 56.5 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 46137344, 1024 KB)
+5506.990 (3) Dropbox chunked upload: 57.8 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 47185920, 1024 KB)
+5528.696 (3) Dropbox chunked upload: 59.1 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 48234496, 1024 KB)
+5550.319 (3) Dropbox chunked upload: 60.4 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 49283072, 1024 KB)
+5575.784 (3) Dropbox chunked upload: 61.7 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 50331648, 1024 KB)
+5595.666 (3) Dropbox chunked upload: 63 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 51380224, 1024 KB)
+5623.697 (3) Dropbox chunked upload: 64.3 % uploaded (AAAAAAAAACf4sYuEXSmFeA, 52428800, 1024 KB)

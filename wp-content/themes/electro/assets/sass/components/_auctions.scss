@@ -1,0 +1,88 @@
+.single-product {
+    .single-product-wrapper {
+        .electro-price .auction{
+            font-size: 0.629em;
+        }
+
+        .auction-condition,
+        .auction-time {
+            padding: 10px;
+        }
+
+        .auction-condition {
+            border: 1px solid #ddd;
+            margin-bottom: 0;
+
+            .curent-bid {
+                font-weight: bold;
+                color: green;
+            }
+        }
+
+        .auction-condition + p {
+            padding-top: 14px;
+
+            & + p .button {
+                min-width: 160px;
+                text-align: center;
+                font-size: 16px;
+            }
+        }
+
+        .auction-time {
+            border-right: 1px solid #ddd;
+            border-left: 1px solid #ddd;
+
+            .auction-time-countdown {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .countdown_section {
+                background-color: #f1f1f1;
+                margin: 2px 1px;
+                padding: 8px 0;
+            }
+        }
+
+        .auction-ajax-change {
+            .auction-end {
+                padding: 10px;
+                border: 1px solid #ddd;
+            }
+
+            .auction-bid {
+                font-size: 18px;
+            }
+        }
+
+        .auction_form {
+            margin-bottom: 12px;
+
+            .bid_button {
+                min-width: 150px;
+                margin-left: 14px;
+            }
+        }
+
+        .wsawl-link a {
+            color: #949494;
+
+            &:hover {
+                color: #3b3b3b;
+            }
+        }
+    }
+}
+
+li.product-type-auction {
+    span.winning {
+        min-height: 24px;
+        padding: 6px 10px;
+        line-height: 1;
+        top: 0;
+        border-radius: 0;
+        z-index: 9;
+        left: 0;
+    }
+}

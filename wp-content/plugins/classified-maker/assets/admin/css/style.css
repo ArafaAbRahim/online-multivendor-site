@@ -1,0 +1,111 @@
+/*
+Admin css
+*/
+
+
+@import url('style-reports.css');
+
+
+
+
+.classified-maker-admin.settings{}
+
+
+.classified-maker-admin.settings{}
+
+
+.classified-maker-admin.settings ul.tab-nav {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+.classified-maker-admin.settings ul.tab-nav li {
+  background: none repeat scroll 0 0 rgb(230, 230, 230);
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 15px 20px;
+}
+
+.classified-maker-admin.settings ul.tab-nav li.active{
+	background:#ffffff;
+	font-weight: bold;
+	}
+	
+
+
+	
+.classified-maker-admin.settings ul.box {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.classified-maker-admin.settings ul.box li.tab-box {
+  background: rgb(255, 255, 255) none repeat scroll 0 0;
+  display: none;
+  margin: 0;
+  padding: 20px 10px;
+  width: 100%;
+}
+
+
+.classified-maker-admin.settings .option-box {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+
+.classified-maker-admin.settings .option-box:hover {
+  
+}
+
+
+.classified-maker-admin.settings .option-box .option-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.classified-maker-admin.settings .option-box .option-details {
+  color: rgb(153, 153, 153);
+  font-size: 13px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.classified-maker-admin.field-set .meta-fields .item {
+  background: #e7e8e8 none repeat scroll 0 0;
+  cursor: move;
+  margin: 2px 0;
+  padding: 5px 5px 5px 20px;
+}
+
+/*Welcome*/
+
+.classified-maker-admin.welcome .single {
+  margin: 30px 0;
+}
+
+.classified-maker-admin.welcome .single .title {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.classified-maker-admin.welcome .section {
+
+}
+
+.classified-maker-admin.welcome .save-options {
+  background: #e7e8e8 none repeat scroll 0 0;
+  padding: 20px;
+}
+
+
+
+
+
+

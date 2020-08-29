@@ -1,0 +1,159 @@
+
+.classified-maker.ads-archive {
+  
+}
+
+.classified-maker.ads-archive .filters {
+  font-size: 14px;
+}
+
+.classified-maker.ads-archive .filters .filter {
+  background: #f0f0f0 none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  color: #999;
+  display: inline-block;
+  line-height: normal;
+  margin: 5px 10px;
+  padding: 5px 10px;
+}
+
+.classified-maker.ads-archive .filters .filter .value {
+  text-transform: capitalize;
+}
+
+
+.classified-maker.ads-archive .ads.featured {
+  background: #fff8bf none repeat scroll 0 0;
+}
+
+.classified-maker.ads-archive .ads.featured .featured-icon {
+  background: rgba(0, 0, 0, 0) url("images/featured.png") repeat scroll 0 0;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+}
+
+
+
+.classified-maker.ads-archive .ads {
+  border-bottom: 1px solid #f0f0f0;
+  min-height: 150px;
+  padding: 20px 10px;
+  position: relative;
+}
+
+.classified-maker.ads-archive .ads .thumb {
+  float: left;
+  height: 150px;
+  margin-right: 20px;
+  overflow: hidden;
+  vertical-align: top;
+  width: 150px;
+}
+
+
+
+.classified-maker.ads-archive .ads .thumb img {
+  border-radius: 0;
+  box-shadow: none;
+  width: 100%;
+}
+
+.classified-maker.ads-archive .ads  .details {
+
+}
+
+.classified-maker.ads-archive .ads .title {
+  font-size: 16px;
+}
+
+.classified-maker.ads-archive .ads .title a {
+  text-decoration: none;
+}
+
+
+.classified-maker.ads-archive .ads .excerpt {
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.classified-maker.ads-archive .ads .meta {
+  font-size: 13px;
+  padding: 5px 0;
+}
+
+.classified-maker.ads-archive .ads .meta .price{
+
+}
+
+
+.classified-maker.ads-archive .ads .meta span {
+  display: inline-block;
+  line-height: normal;
+  padding: 4px 10px;
+}
+.classified-maker.ads-archive .ads .meta a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

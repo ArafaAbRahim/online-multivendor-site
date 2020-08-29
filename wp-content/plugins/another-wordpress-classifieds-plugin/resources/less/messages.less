@@ -1,0 +1,49 @@
+#classiwrapper {
+    .awpcp-message {
+        background-color: #FFFBCC;
+        border: 1px solid #CCC;
+        color: #333;
+        margin: 10px 0;
+        padding: 8px 12px;
+
+        &.updated {
+            border-color: #E6DB55;
+        }
+        &.error {
+            border-color: #CC0000;
+        }
+        &.info {
+            border-color: #00A1CE;
+        }
+        &.ghost {
+            display: none;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .awpcp-updated {
+        border-color: #E6DB55;
+        display: block !important;
+    }
+
+    .awpcp-error {
+        background-color: #FFEBE8;
+        border-color: #CC0000;
+        color: #ff0000;
+        font-weight: normal;
+        font-size: 14px;
+    }
+}
+
+.wrap div.awpcp-inline-form-error /* necessary to overwrite WordPress styles */ {
+    background: #FFF;
+    border-radius: 3px;
+    border-color: #D15151;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    color: #555;
+    margin: 0.5em;
+    padding: 0.5em 0.7em;
+}

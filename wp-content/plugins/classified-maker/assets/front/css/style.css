@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+.classified-maker .paginate {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.classified-maker .paginate .page-numbers {
+  background: #f0f0f0 none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  color: #999;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.classified-maker .paginate .current {
+  border: medium none;
+}
+.classified-maker .paginate .prev{
+  
+}
+
+.classified-maker .paginate .next{
+  
+}
+
+
+.classified-maker-widgets{}
+
+.classified-maker-widgets .categorised-ads{}
+
+
+.classified-maker-widgets .single {
+  border-bottom: 1px solid #f2f2f2;
+  margin: 10px 0;
+}
+
+.classified-maker-widgets .ads-image {
+  border-radius: 0;
+  box-shadow: none;
+  float: left;
+  height: 80px;
+  overflow: hidden;
+  width: 80px;
+}
+
+.classified-maker-widgets .ads-details {
+  margin-left: 90px;
+  padding: 0 0 10px;
+}
+.classified-maker-widgets .ads-details .ads-title {
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.classified-maker-widgets .ads-details .ads-price,
+.classified-maker-widgets .ads-details .ads-location,
+.classified-maker-widgets .ads-details .ads-date {
+  display: block;
+  font-size: 12px;
+  margin: 3px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.category-ads-count .category-single {
+  display: inline-block;
+  font-size: 13px;
+  min-width: 250px;
+  padding: 4px 0;
+}
+
+
+.category-ads-count a {
+  text-decoration: none;
+}
+
+
+
+
+.category-ads-list ul.tab-nav {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+.category-ads-list ul.tab-nav li {
+  background: rgb(241, 241, 241) none repeat scroll 0 0;
+  border-left: 1px solid rgb(199, 199, 199);
+  box-shadow: 0 -1px 2px -1px rgb(102, 102, 102);
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 5px 15px;
+}
+
+.category-ads-list ul.tab-nav li.active {
+  background: rgb(228, 228, 228) none repeat scroll 0 0;
+}
+
+.category-ads-list ul.box {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+.category-ads-list ul.box li.tab-box {
+  border: 1px solid rgb(153, 153, 153);
+  display: none;
+  margin: 0;
+  width: 100%;
+}

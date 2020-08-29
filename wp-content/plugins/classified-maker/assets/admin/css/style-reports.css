@@ -1,0 +1,48 @@
+/*
+Admin css
+*/
+
+
+
+#reports_metabox { margin-top: -20px; }
+
+#reports_metabox h2.hndle.ui-sortable-handle {
+    background: #e0685e;
+    color: #fff;
+}
+
+#reports_metabox .handlediv .toggle-indicator:before {
+    color: #fff !important;
+    border-color: #fff !important;
+	box-shadow: 0 0 0 1px rgba(255,255,255,.9), 0 0 2px 1px rgba(255,255,255,.9) !important;
+}
+
+
+
+
+
+
+
+
+.classified-maker-reports {}
+
+.classified-maker-reports .option-box {
+    margin: 15px;
+}
+
+
+
+.classified-maker-reports .option-title {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 600;
+    color: #4e4e4e;
+}
+
+.classified-maker-reports .option-info {
+    font-size: 14px;
+    margin: 15px;
+}
+
+
+

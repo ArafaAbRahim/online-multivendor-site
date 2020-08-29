@@ -1,0 +1,321 @@
+<?php
+
+/**
+ * Helper class used to handle API calls & configuration for Facebook integration.
+ * @since 3.0.2
+ */
+class AWPCP_Facebook {
+
+    const GRAPH_API_VERSION = 'v2.7';
+
+	private static $instance = null;
+    private $access_token = '';
+    private $last_error = null;
+
+	public function __construct() { }
+
+    public function validate_config( &$errors ) {
+        $errors = !$errors ? array() : $errors;
+
+        $config = $this->get_config();
+        $app_id = isset( $config['app_id'] ) ? $config['app_id'] : '';
+        $app_secret = isset( $config['app_secret'] ) ? $config['app_secret'] : '';
+        $user_id = isset( $config['user_id'] ) ? $config['user_id'] : '';
+        $user_token = isset( $config['user_token'] ) ? $config['user_token'] : '';
+        $page_id = isset( $config['page_id'] ) ? $config['page_id'] : '';
+        $page_token = isset( $config['page_token'] ) ? $config['page_token'] : '';
+
+        $app_access_token = '';
+
+        if ( !$app_id || !$app_secret ) {
+            $errors[] = __( 'Missing App ID and Secret.', 'another-wordpress-classifieds-plugin' );
+            return;
+        }
+
+        if ( ! $user_id || ! $user_token ) {
+            $errors[] = __( 'Missing a valid User Access Token.', 'another-wordpress-classifieds-plugin' );
+            return;
+        }
+
+        $this->set_access_token( 'user_token' );
+        $response = $this->api_request( '/me/permissions', 'GET', array() );
+
+        if ( ! $response && is_object( $response->last_error ) ) {
+            $errors[] = $this->last_error->message;
+            return;
+        }
+
+        if ( ! $response || ! isset( $response->data ) ) {
+            $errors[] = __( 'Could not validate User Access Token. Are you connected to the internet?', 'another-wordpress-classifieds-plugin' );
+            return;
+        }
+
+        $permissions = array();
+
+        foreach ( $response->data as $entry ) {
+            if ( $entry->status == 'granted' ) {
+                $permissions[] = $entry->permission;
+            }
+        }
+
+        if ( ! in_array( 'manage_pages', $permissions ) || ( ! in_array( 'publish_pages', $permissions ) && ! in_array( 'publish_actions', $permissions ) ) ) {
+            $errors[] = __( 'User Access Token is valid but doesn\'t have the permissions required for AWPCP integration (publish_pages, publis_actions and manage_pages).', 'another-wordpress-classifieds-plugin' );
+            return;
+        }
+
+        if ( !$page_token || !$page_id ) {
+            $errors[] = __( 'No Facebook page is selected (missing page id or token).', 'another-wordpress-classifieds-plugin' );
+        }
+    }
+
+    public function get_config( $key=null ) {
+        $defaults = array(
+            'app_id' => '',
+            'app_secret' => '',
+            'user_token' => '',
+            'page_token' => ''
+        );
+
+        $config = get_option( 'awpcp-facebook-config', $defaults );
+
+        if ( $key ) {
+            if ( isset( $config[ $key ] ) )
+                return $config[ $key ];
+            else
+                return null;
+        } else {
+            return $config;
+        }
+    }
+
+    public function get( $key, $default=null ) {
+        $config = $this->get_config();
+
+        if ( isset( $config[ $key ] ) )
+            return $config[ $key ];
+
+        return $default;
+    }
+
+    public function set( $key, $value ) {
+        $config = $this->get_config();
+
+        if ( array_key_exists( $key, $config ) ){
+            $config[ $key ] = $value;
+
+            $this->set_config( $config );
+
+            return true;
+        }
+
+        return false;
+    }
+
+    public function set_access_token( $key_or_token = '' ) {
+        if ( $key_or_token == 'user_token' || $key_or_token == 'page_token' )
+            $token = $this->get( $key_or_token );
+        else
+            $token = $key_or_token;
+        $this->access_token = $token;
+    }
+
+    public function set_config( $config=array() ) {
+        $defaults = array(
+            'app_id' => '',
+            'app_secret' => '',
+            'user_token' => '',
+            'page_token' => '',
+            'user_id' => '',
+            'page_id' => ''
+        );
+
+        $config = array_merge( $defaults, $config );
+        array_walk( $config, create_function( '&$x', '$x = str_replace( " ", "", $x );' ) );
+
+        $previous_config = $this->get_config();
+
+        if ( ( $previous_config['app_id'] != $config['app_id'] ) || ( $previous_config['app_secret'] != $config['app_secret'] ) ) {
+            $config['user_token'] = '';
+            $config['user_id'] = '';
+            $config['page_id'] = '';
+            $config['page_token'] = '';
+        } elseif ( $previous_config['user_token'] != $config['user_token'] ) {
+            if ( !$config['user_token'] ) {
+                $config['user_id'] = 0;
+            } elseif( !$config['user_id'] ) {
+                $this->set_access_token( $config['user_token'] );
+                $response = $this->api_request( '/me', 'GET', array( 'fields' => 'id' ) );
+
+                if ( !$response || !isset( $response->id ) )
+                    $config['user_id'] = 0;
+                else
+                    $config['user_id'] = $response->id;
+            }
+
+            $config['page_id'] = '';
+            $config['page_token'] = '';
+        }
+
+        update_option( 'awpcp-facebook-config', $config );
+        return true;
+    }
+
+    public static function instance() {
+        if ( is_null( self::$instance ) ) {
+            self::$instance = new self;
+        }
+        return self::$instance;
+    }
+
+    public function get_user_pages() {
+        if ( !$this->get( 'user_id' ) || !$this->get( 'user_token' ) )
+            return array();
+
+        $pages = array();
+
+        $this->set_access_token( 'user_token' );
+
+        // Add own user page.
+        $response = $this->api_request( '/me', 'GET', array( 'fields' => 'id,name' ) );
+        if ( $response ) {
+            $pages[] = array( 'id' => $response->id,
+                              'name' => $response->name,
+                              'access_token' => $this->get( 'user_token' ),
+                              'profile' => true );
+        }
+
+        $response = $this->api_request( '/me/accounts' );
+        if ( $response && isset( $response->data ) ) {
+            foreach ( $response->data as &$p ) {
+                if ( in_array( 'CREATE_CONTENT', $p->perms ) )
+                    $pages[] = array( 'id' => $p->id,
+                                      'name' => $p->name,
+                                      'access_token' => $p->access_token );
+            }
+        }
+
+    	return $pages;
+    }
+
+    public function get_user_groups() {
+        if ( ! $this->get( 'user_id' ) || ! $this->get( 'user_token' ) ) {
+            return array();
+        }
+
+        $this->set_access_token( 'user_token' );
+        $response = $this->api_request( '/me/groups' );
+
+        $groups = array();
+        if ( $response && isset( $response->data ) ) {
+            foreach ( $response->data as &$p ) {
+                $groups[] = array( 'id' => $p->id, 'name' => $p->name );
+            }
+        }
+
+        return $groups;
+    }
+
+    public function get_login_url( $redirect_uri = '', $scope = '' ) {
+        return sprintf( 'https://www.facebook.com/' . self::GRAPH_API_VERSION . '/dialog/oauth?client_id=%s&redirect_uri=%s&scope=%s',
+                        $this->get( 'app_id' ),
+                        urlencode( $redirect_uri ),
+                        urlencode( $scope )
+                      );
+    }
+
+    public function token_from_code( $code, $redirect_uri='' ) {
+        if ( !$code )
+            return false;
+
+        if ( !$redirect_uri ) {
+            // Assume $redirect_uri is the current URL sans stuff added by FB.
+            $redirect_uri = remove_query_arg( array( 'client_id', 'code', 'error', 'error_reason', 'error_description', 'redirect_uri' ), awpcp_current_url() );
+        }
+
+        $response = $this->api_request( '/oauth/access_token',
+                                        'GET',
+                                        array( 'redirect_uri' => $redirect_uri,
+                                               'code' => $code ),
+            true
+        );
+
+        if ( $response && isset( $response->access_token ) ) {
+            return $response->access_token;
+        } else {
+            return '';
+        }
+    }
+
+    public function api_request( $path, $method = 'GET', $args = array(), $notoken=false, $json_decode=true ) {
+        $this->last_error = '';
+
+        $url = 'https://graph.facebook.com/' . self::GRAPH_API_VERSION . '/' . ltrim( $path, '/' );
+        $url .= '?client_id=' . $this->get( 'app_id' );
+        $url .= '&client_secret=' . $this->get( 'app_secret' );
+
+        if ( !$notoken && $this->access_token ) {
+            $url .= '&access_token=' . $this->access_token;
+            $url .= '&appsecret_proof=' . hash_hmac( 'sha256', $this->access_token, $this->get( 'app_secret' ) );
+        }
+
+        if ( $method == 'GET' && $args ) {
+            foreach ( $args as $k => $v ) {
+                if ( in_array( $k, array( 'client_id', 'client_secret', 'access_token' ) ) )
+                    continue;
+
+                $url .= '&' . $k . '=' . urlencode( $v );
+            }
+        }
+
+        $c = curl_init();
+        curl_setopt( $c, CURLOPT_URL, $url );
+        curl_setopt( $c, CURLOPT_HEADER, 0 );
+        curl_setopt( $c, CURLOPT_RETURNTRANSFER, 1 );
+        curl_setopt( $c, CURLOPT_SSL_VERIFYPEER, 1 );
+        curl_setopt( $c, CURLOPT_CAINFO, AWPCP_DIR . '/cacert.pem' );
+
+        if ( $method == 'POST' ) {
+            curl_setopt( $c, CURLOPT_POST, 1 );
+            curl_setopt( $c, CURLOPT_POSTFIELDS, $args );
+        }
+
+        $res = curl_exec( $c );
+        $curl_error_number = curl_errno( $c );
+        $curl_error_message = curl_error( $c );
+        curl_close( $c );
+
+        if ( $curl_error_number === 0 ) {
+            $res = $json_decode ? json_decode( $res ) : $res;
+
+            if ( isset( $res->error ) )
+                $this->last_error = $res->error;
+
+            $response = !$res || isset( $res->error ) ? false : $res;
+        } else {
+            $this->last_error = new stdClass();
+            $this->last_error->message = $curl_error_message;
+            $response = false;
+        }
+
+        return $response;
+    }
+
+    /**
+     * @since 3.0.2
+     */
+    public function get_last_error() {
+        return $this->last_error;
+    }
+
+    public function is_page_set() {
+        $page_id = $this->get( 'page_id' );
+        $page_token = $this->get( 'page_token' );
+
+        return ( empty( $page_id ) || empty( $page_token ) ) ? false : true;
+    }
+
+    public function is_group_set() {
+        $group_id = $this->get( 'group_id' );
+        return empty( $group_id ) ? false : true;
+    }
+}

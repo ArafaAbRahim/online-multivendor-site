@@ -1,0 +1,55 @@
+
+
+
+.my-wishlist {
+
+}
+
+.my-wishlist .item{
+    border-bottom: 1px solid #ddd;
+	padding: 10px 0;
+}
+.my-wishlist .item:last-child{
+    border-bottom: none;
+}
+
+.my-wishlist .item .cm_meta {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 28px;
+}
+
+
+.my-wishlist .item .cm_meta.title {
+    max-width: 200px;
+    width: 200px;
+}
+
+.my-wishlist .item .cm_meta.date_time {
+    width: 180px;
+	 max-width: 180px;
+	 font-size:12px;
+}
+
+.my-wishlist .item .cm_meta.remove {
+    background: #dd4f43;
+    color: #fff;
+    text-align: center;
+    padding: 0px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: inline-block;
+    transition: all ease-out 0.15s;
+}
+
+.my-wishlist .item .cm_meta.remove:hover {
+	background: #C13C31;
+}
+
+
+
+
+
+
+
+

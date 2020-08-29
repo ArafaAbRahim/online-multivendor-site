@@ -1,0 +1,64 @@
+#shipping_method {
+	list-style: none;
+	width: 100%;
+	margin: 0;
+
+	li {
+		position: relative;
+
+		label {
+			font-weight: normal;
+			margin-#{$start}: 5px;
+
+			> span {
+				position: absolute;
+				#{$end}: 0;
+				top: 2px;
+			}
+		}
+	}
+}
+
+tr.shipping {
+	flex-wrap: wrap;
+
+	> td, > th {
+		display: block;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	> td > .woocommerce-Price-amount {
+		float: $end;
+	}
+
+	> th {
+		padding-bottom: 0 !important;
+	}
+}
+
+.woocommerce-checkout-review-order-table {
+	display: block;
+	padding: 0 0.75rem;
+
+	thead, tbody, tfoot {
+		display: block;
+		width: 100%;
+
+		> tr {
+			display: flex;
+			width: 100%;
+			justify-content: space-between;
+			border-top: 1px solid #ddd;
+
+			td, th {
+				border: 0;
+				padding: 0.75rem 0;
+			}
+		}
+	}
+
+	thead tr {
+		border-top: 0;
+	}
+}

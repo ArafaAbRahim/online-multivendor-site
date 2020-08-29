@@ -1,0 +1,92 @@
+.thumbnail_above() {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    width: 100%;
+}
+
+.left_thumbnail() {
+    margin-right: 10px;
+    margin-left: 0;
+    float: left;
+    width: 50%;
+}
+
+.right_thumbnail() {
+    margin-right: 0;
+    margin-left: 10px;
+    float: right;
+    width: 50%;
+}
+
+/* Using !important because theme authors love to use IDs in their
+   CSS selectors. My rules won't be applied unless I know the exact
+   selector or use !important. */
+.awpcp-listings-widget-items-list {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style-type: none !important;
+
+    .awpcp-listings-widget-item {
+        margin-bottom: 15px;
+
+        .awpcplatestthumb {
+            box-sizing: border-box;
+            margin-bottom: 5px;
+
+            a {
+                display: block !important;
+                margin: 0 auto !important;
+                width: 100%;
+
+                img {
+                    height: auto;
+                    max-width: 100%;
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        .awpcp-listing-title {
+            font-weight: bold;
+        }
+
+        .awpcp-widget-read-more {
+            margin-left: 10px !important;
+        }
+    }
+
+    .awpcp-listings-widget-item-with-thumbnail-above-in-desktop .awpcplatestthumb {
+        .thumbnail_above();
+    }
+
+    .awpcp-listings-widget-item-with-left-thumbnail-in-desktop .awpcplatestthumb {
+        .left_thumbnail();
+    }
+
+    .awpcp-listings-widget-item-with-right-thumbnail-in-desktop .awpcplatestthumb {
+        .right_thumbnail();
+    }
+
+    .awpcp-listings-widget-item-listing-link {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 44em) {
+
+.awpcp-listings-widget-items-list {
+    .awpcp-listings-widget-item-with-left-thumbnail-in-mobile .awpcplatestthumb {
+        .left_thumbnail();
+    }
+
+    .awpcp-listings-widget-item-with-right-thumbnail-in-mobile .awpcplatestthumb {
+        .right_thumbnail();
+    }
+
+    .awpcp-listings-widget-item-with-thumbnail-above-in-mobile .awpcplatestthumb {
+        .thumbnail_above();
+    }
+}
+
+}

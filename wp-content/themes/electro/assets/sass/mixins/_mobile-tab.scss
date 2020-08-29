@@ -1,0 +1,16 @@
+@mixin mobile-tab($width) {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    justify-content: unset!important;
+    width: 100%;
+    border: none !important;
+    padding-bottom: 6px;
+
+    li {
+        border-bottom: 1px solid #ddd;
+        margin: 0 !important;
+        flex-shrink: 0;
+        width: $width;
+    }
+}

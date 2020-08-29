@@ -1,0 +1,1115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Maker\n"
+"POT-Creation-Date: 2016-11-15 19:30+0600\n"
+"PO-Revision-Date: 2016-11-15 19:30+0600\n"
+"Last-Translator: \n"
+"Language-Team: pickplugins <support@pickplugins.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: templates\n"
+
+#: includes/class-emails.php:52
+msgid "New Ads Submitted"
+msgstr ""
+
+#: includes/class-emails.php:53
+msgid "New Ads Submitted - {site_url}"
+msgstr ""
+
+#: includes/class-emails.php:58
+msgid "New Ads Published"
+msgstr ""
+
+#: includes/class-emails.php:59
+msgid "New Ads Published - {site_url}"
+msgstr ""
+
+#: includes/class-emails.php:64
+msgid "Ads Update"
+msgstr ""
+
+#: includes/class-emails.php:65
+msgid "Ads Update - {site_url}"
+msgstr ""
+
+#: includes/class-emails.php:83
+msgid "Site Parameters"
+msgstr ""
+
+#: includes/class-emails.php:88
+msgid "Users Parameters"
+msgstr ""
+
+#: includes/class-emails.php:93
+msgid "Ads Parameters"
+msgstr ""
+
+#: includes/class-form.php:81 includes/class-form.php:90
+#: includes/class-form.php:95 includes/pickform/class-pickform.php:491
+#: includes/pickform/class-pickform.php:503
+#: includes/pickform/class-pickform.php:513
+msgid "Remove"
+msgstr ""
+
+#: includes/class-form.php:103 includes/class-form.php:347
+#: includes/pickform/class-pickform.php:520
+msgid "Add more"
+msgstr ""
+
+#: includes/class-form.php:252 includes/class-form.php:489
+#: includes/class-form.php:869
+msgid "filetype: (jpg, png, jpeg), max size: 200Mb"
+msgstr ""
+
+#: includes/class-form.php:252 includes/class-form.php:489
+#: includes/class-form.php:869
+msgid "Upload"
+msgstr ""
+
+#: includes/class-form.php:254 includes/class-form.php:491
+#: includes/class-form.php:871 includes/menu/field-set.php:81
+msgid "Reset"
+msgstr ""
+
+#: includes/class-form.php:688
+msgid "Drop - files here"
+msgstr ""
+
+#: includes/class-form.php:689 includes/pickform/class-pickform.php:755
+msgid "Select Files"
+msgstr ""
+
+#: includes/class-form.php:709 includes/pickform/class-pickform.php:775
+msgid "Allowed Files"
+msgstr ""
+
+#: includes/class-functions.php:23
+msgid "Draft"
+msgstr ""
+
+#: includes/class-functions.php:23
+msgid "Pending"
+msgstr ""
+
+#: includes/class-functions.php:23
+msgid "Published"
+msgstr ""
+
+#: includes/class-functions.php:23
+msgid "Private"
+msgstr ""
+
+#: includes/class-functions.php:23
+msgid "Trash"
+msgstr ""
+
+#: includes/class-functions.php:38
+msgid "Submit Ads"
+msgstr ""
+
+#: includes/class-functions.php:44
+msgid "Edit Ads"
+msgstr ""
+
+#: includes/class-functions.php:50
+msgid "Ads Account"
+msgstr ""
+
+#: includes/class-functions.php:56
+msgid "Ads Archive"
+msgstr ""
+
+#: includes/class-functions.php:76
+msgid "Classified Maker - How to install."
+msgstr ""
+
+#: includes/class-functions.php:82
+msgid "Classified Maker - Settings."
+msgstr ""
+
+#: includes/class-functions.php:88
+msgid "Classified Maker - How to publish Ads."
+msgstr ""
+
+#: includes/class-functions.php:93
+msgid "Classified Maker - How to edit Ads."
+msgstr ""
+
+#: includes/class-functions.php:123 includes/class-functions.php:402
+msgid "General"
+msgstr ""
+
+#: includes/class-functions.php:132
+msgid "Contact Phone Number"
+msgstr ""
+
+#: includes/class-functions.php:133
+msgid ""
+"You can add multiple phone number, first number will display on ads page. "
+"you can sort number to change positions"
+msgstr ""
+
+#: includes/class-functions.php:146 includes/class-functions.php:147
+msgid "Contact Email Address"
+msgstr ""
+
+#: includes/class-functions.php:156 includes/class-functions.php:157
+#: includes/class-functions.php:885 includes/class-functions.php:1198
+msgid "Address"
+msgstr ""
+
+#: includes/class-functions.php:187
+msgid "Click to see phone number"
+msgstr ""
+
+#: includes/class-functions.php:194
+msgid "Send Email"
+msgstr ""
+
+#: includes/class-functions.php:203
+msgid "Send email"
+msgstr ""
+
+#: includes/class-functions.php:239 includes/class-functions.php:356
+#: includes/class-functions.php:839 includes/class-functions.php:1174
+msgid "Location"
+msgstr ""
+
+#: includes/class-functions.php:279
+msgid "Negotiable"
+msgstr ""
+
+#: includes/class-functions.php:292 includes/class-functions.php:921
+#: includes/class-functions.php:1239
+msgid "Price"
+msgstr ""
+
+#: includes/class-functions.php:322
+msgid "Contact Seller"
+msgstr ""
+
+#: includes/class-functions.php:378
+msgid "Share this ad"
+msgstr ""
+
+#: includes/class-functions.php:411 includes/class-functions.php:412
+msgid "Post Per page"
+msgstr ""
+
+#: includes/class-functions.php:421 includes/class-functions.php:422
+msgid "Excerpt word count"
+msgstr ""
+
+#: includes/class-functions.php:491
+msgid "Permissions"
+msgstr ""
+
+#: includes/class-functions.php:500 includes/class-functions.php:501
+msgid "Account required to post ads"
+msgstr ""
+
+#: includes/class-functions.php:504 includes/class-functions.php:515
+#: includes/class-functions.php:526 includes/class-functions.php:612
+#: includes/class-functions.php:667 includes/class-functions.php:679
+#: includes/class-functions.php:730 includes/class-functions.php:742
+#: includes/class-functions.php:935 includes/class-functions.php:1254
+msgid "Yes"
+msgstr ""
+
+#: includes/class-functions.php:504 includes/class-functions.php:515
+#: includes/class-functions.php:526 includes/class-functions.php:612
+#: includes/class-functions.php:667 includes/class-functions.php:679
+#: includes/class-functions.php:730 includes/class-functions.php:742
+#: includes/class-functions.php:935 includes/class-functions.php:1254
+msgid "No"
+msgstr ""
+
+#: includes/class-functions.php:511
+msgid "Registration enable"
+msgstr ""
+
+#: includes/class-functions.php:512
+msgid "Registration enable on My Account Page"
+msgstr ""
+
+#: includes/class-functions.php:522
+msgid "Login enable"
+msgstr ""
+
+#: includes/class-functions.php:523
+msgid "Login enable on My Account Page"
+msgstr ""
+
+#: includes/class-functions.php:537
+msgid "Pages"
+msgstr ""
+
+#: includes/class-functions.php:550 includes/class-functions.php:551
+msgid "Archive page"
+msgstr ""
+
+#: includes/class-functions.php:561 includes/class-functions.php:562
+msgid "Submit ads page"
+msgstr ""
+
+#: includes/class-functions.php:572 includes/class-functions.php:573
+msgid "Edit ads page"
+msgstr ""
+
+#: includes/class-functions.php:584 includes/class-functions.php:585
+msgid "Account page"
+msgstr ""
+
+#: includes/class-functions.php:599
+msgid "Ads Posting"
+msgstr ""
+
+#: includes/class-functions.php:608 includes/class-functions.php:609
+msgid "reCAPTCHA enable"
+msgstr ""
+
+#: includes/class-functions.php:619 includes/class-functions.php:620
+msgid "reCAPTCHA site key"
+msgstr ""
+
+#: includes/class-functions.php:629 includes/class-functions.php:630
+msgid "reCAPTCHA secret key"
+msgstr ""
+
+#: includes/class-functions.php:639 includes/class-functions.php:640
+msgid "New Submitted Ads Status ?"
+msgstr ""
+
+#: includes/class-functions.php:652 includes/class-functions.php:653
+msgid "Currency symbol"
+msgstr ""
+
+#: includes/class-functions.php:663
+msgid "Can user edit published ads ?"
+msgstr ""
+
+#: includes/class-functions.php:664
+msgid "Can user edit their published ads ?"
+msgstr ""
+
+#: includes/class-functions.php:675
+msgid "Display category meta"
+msgstr ""
+
+#: includes/class-functions.php:676
+msgid "Display category input field data."
+msgstr ""
+
+#: includes/class-functions.php:697 includes/my-account-registration.php:60
+msgid "Email"
+msgstr ""
+
+#: includes/class-functions.php:706 includes/class-functions.php:707
+msgid "Email Logo URL"
+msgstr ""
+
+#: includes/class-functions.php:716 includes/class-functions.php:717
+msgid "From Email"
+msgstr ""
+
+#: includes/class-functions.php:726 includes/class-functions.php:727
+msgid "Notify email new ads submit ?"
+msgstr ""
+
+#: includes/class-functions.php:738 includes/class-functions.php:739
+msgid "Notify email new ads publish ?"
+msgstr ""
+
+#: includes/class-functions.php:780
+msgid "Title"
+msgstr ""
+
+#: includes/class-functions.php:781 includes/class-functions.php:1087
+msgid "Ads Title"
+msgstr ""
+
+#: includes/class-functions.php:790
+msgid "Descriptions"
+msgstr ""
+
+#: includes/class-functions.php:791
+msgid "Ads Descriptions"
+msgstr ""
+
+#: includes/class-functions.php:816
+msgid "Images"
+msgstr ""
+
+#: includes/class-functions.php:817
+msgid "Add some awesome images"
+msgstr ""
+
+#: includes/class-functions.php:829 includes/class-functions.php:830
+#: includes/class-functions.php:1126 includes/class-post-types.php:84
+msgid "Ads Category"
+msgstr ""
+
+#: includes/class-functions.php:840
+msgid "Your Location"
+msgstr ""
+
+#: includes/class-functions.php:875
+msgid "Phone numbers"
+msgstr ""
+
+#: includes/class-functions.php:876 includes/class-functions.php:1187
+msgid "Phone numbers to contact."
+msgstr ""
+
+#: includes/class-functions.php:886 includes/class-functions.php:1199
+msgid "Your full address"
+msgstr ""
+
+#: includes/class-functions.php:897 includes/class-functions.php:1211
+msgid "Owner type"
+msgstr ""
+
+#: includes/class-functions.php:898 includes/class-functions.php:1212
+msgid "Owner type of this ads"
+msgstr ""
+
+#: includes/class-functions.php:901 includes/class-functions.php:1215
+msgid "Personal"
+msgstr ""
+
+#: includes/class-functions.php:901 includes/class-functions.php:1215
+msgid "Business"
+msgstr ""
+
+#: includes/class-functions.php:909 includes/class-functions.php:1226
+msgid "Listing for"
+msgstr ""
+
+#: includes/class-functions.php:910 includes/class-functions.php:1227
+msgid "Ads Listing for"
+msgstr ""
+
+#: includes/class-functions.php:913 includes/class-functions.php:1230
+msgid "Sell"
+msgstr ""
+
+#: includes/class-functions.php:913 includes/class-functions.php:1230
+msgid "Rent"
+msgstr ""
+
+#: includes/class-functions.php:913 includes/class-functions.php:1230
+msgid "Job Post"
+msgstr ""
+
+#: includes/class-functions.php:913 includes/class-functions.php:1230
+msgid "Wanted"
+msgstr ""
+
+#: includes/class-functions.php:922 includes/class-functions.php:1240
+msgid "Item Price"
+msgstr ""
+
+#: includes/class-functions.php:931 includes/class-functions.php:1250
+#: includes/shortcodes/shortcodes-archive.php:392
+msgid "Featured"
+msgstr ""
+
+#: includes/class-functions.php:932 includes/class-functions.php:1251
+msgid "Featured listing ?"
+msgstr ""
+
+#: includes/class-functions.php:951
+msgid "reCAPTCHA"
+msgstr ""
+
+#: includes/class-functions.php:952
+msgid "reCAPTCHA test."
+msgstr ""
+
+#: includes/class-functions.php:1076
+msgid "reCaptcha"
+msgstr ""
+
+#: includes/class-functions.php:1077
+msgid "reCaptcha test."
+msgstr ""
+
+#: includes/class-functions.php:1088
+msgid "Ads Title Write Here"
+msgstr ""
+
+#: includes/class-functions.php:1098
+msgid "Ads Content"
+msgstr ""
+
+#: includes/class-functions.php:1099
+msgid "Write Ads Content Here"
+msgstr ""
+
+#: includes/class-functions.php:1113
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/class-functions.php:1114
+msgid "Ads Featured Image, uplaod single image only"
+msgstr ""
+
+#: includes/class-functions.php:1127
+msgid "Select Ads Category."
+msgstr ""
+
+#: includes/class-functions.php:1161
+msgid "Ads Gallery"
+msgstr ""
+
+#: includes/class-functions.php:1162
+msgid "Ads Gallery Images"
+msgstr ""
+
+#: includes/class-functions.php:1175
+msgid "Your Location, City ex: California"
+msgstr ""
+
+#: includes/class-functions.php:1186
+msgid "Phone numbers."
+msgstr ""
+
+#: includes/class-post-meta.php:263
+msgid "job Data"
+msgstr ""
+
+#: includes/class-post-types.php:30 includes/class-post-types.php:31
+msgid "Ads"
+msgstr ""
+
+#: includes/class-post-types.php:40 includes/class-post-types.php:99
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: includes/class-post-types.php:41
+msgid "New "
+msgstr ""
+
+#: includes/class-post-types.php:42
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: includes/class-post-types.php:43
+#: includes/shortcodes/shortcodes-account.php:104
+msgid "Edit"
+msgstr ""
+
+#: includes/class-post-types.php:44 includes/class-post-types.php:102
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/class-post-types.php:45
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/class-post-types.php:46 includes/class-post-types.php:47
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: includes/class-post-types.php:48 includes/class-post-types.php:98
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: includes/class-post-types.php:49
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: includes/class-post-types.php:50
+#, php-format
+msgid "No %s found in trash"
+msgstr ""
+
+#: includes/class-post-types.php:51 includes/class-post-types.php:100
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: includes/class-post-types.php:53
+#, php-format
+msgid "This is where you can create and manage %s."
+msgstr ""
+
+#: includes/class-post-types.php:85
+msgid "Ads Categories"
+msgstr ""
+
+#: includes/class-post-types.php:101
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: includes/class-post-types.php:103
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: includes/class-post-types.php:104
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: includes/class-post-types.php:105
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: includes/class-settings.php:24
+msgid "Settings"
+msgstr ""
+
+#: includes/class-settings.php:25
+msgid "Field Set"
+msgstr ""
+
+#: includes/class-settings.php:27
+msgid "Email Templates"
+msgstr ""
+
+#: includes/class-settings.php:29
+#: includes/shortcodes/shortcodes-account.php:183
+msgid "Welcome"
+msgstr ""
+
+#: includes/class-settings.php:31
+msgid "Help"
+msgstr ""
+
+#: includes/class-settings.php:32
+msgid "Addons"
+msgstr ""
+
+#: includes/functions.php:113
+msgid "Thumb"
+msgstr ""
+
+#: includes/functions.php:157 includes/functions.php:158
+msgid "New input"
+msgstr ""
+
+#: includes/functions.php:533
+msgid "Frontend Edit"
+msgstr ""
+
+#: includes/functions.php:563
+msgid "Name is missing"
+msgstr ""
+
+#: includes/functions.php:567
+msgid "Email address is missing"
+msgstr ""
+
+#: includes/functions.php:571
+msgid "Phone is missing"
+msgstr ""
+
+#: includes/functions.php:575
+msgid "Message is missing"
+msgstr ""
+
+#: includes/functions.php:608
+msgid "Message sent successfully."
+msgstr ""
+
+#: includes/functions.php:612
+msgid "Something went wrong with server."
+msgstr ""
+
+#: includes/functions.php:701
+msgid "Ads deleted."
+msgstr ""
+
+#: includes/functions.php:704
+msgid "Something going wrong."
+msgstr ""
+
+#: includes/functions.php:710
+msgid "You are not authorized to delete this ads."
+msgstr ""
+
+#: includes/functions.php:745
+msgid "year ago"
+msgstr ""
+
+#: includes/functions.php:749
+msgid "month ago"
+msgstr ""
+
+#: includes/functions.php:753
+msgid "day ago"
+msgstr ""
+
+#: includes/functions.php:757
+msgid "hour ago"
+msgstr ""
+
+#: includes/functions.php:761
+msgid "minute ago"
+msgstr ""
+
+#: includes/functions.php:1016
+msgid "You are not authorized"
+msgstr ""
+
+#: includes/menu/addons.php:89
+msgid "Version:"
+msgstr ""
+
+#: includes/menu/addons.php:99 includes/shortcodes/shortcodes-archive.php:187
+#: includes/shortcodes/shortcodes-archive.php:457
+msgid "Price:"
+msgstr ""
+
+#: includes/menu/addons.php:100
+msgid "Download"
+msgstr ""
+
+#: includes/menu/addons.php:132
+msgid " - Addons"
+msgstr ""
+
+#: includes/menu/emails-templates.php:63
+msgid "Email Subject:"
+msgstr ""
+
+#: includes/menu/emails-templates.php:72
+msgid "Email Body:"
+msgstr ""
+
+#: includes/menu/emails-templates.php:96
+msgid " - Emails Templates"
+msgstr ""
+
+#: includes/menu/emails-templates.php:114 includes/menu/field-set.php:46
+#: includes/menu/settings.php:68
+msgid "Changes Saved."
+msgstr ""
+
+#: includes/menu/emails-templates.php:140 includes/menu/field-set.php:245
+#: includes/menu/settings.php:174
+msgid "Save Changes"
+msgstr ""
+
+#: includes/menu/field-set.php:78
+msgid ""
+"You can display input fields based on catgory, please check which input "
+"fields you want to load on ads submission form on which category."
+msgstr ""
+
+#: includes/menu/field-set.php:82
+#: includes/shortcodes/shortcodes-edit-ads.php:883
+msgid "Update"
+msgstr ""
+
+#: includes/menu/field-set.php:145 includes/menu/field-set.php:180
+msgid "Display ads submission form"
+msgstr ""
+
+#: includes/menu/field-set.php:160 includes/menu/field-set.php:181
+msgid "Display on Ads page"
+msgstr ""
+
+#: includes/menu/field-set.php:212
+msgid "Please create some ads categories first."
+msgstr ""
+
+#: includes/menu/help.php:22
+#, php-format
+msgid "%s - Help"
+msgstr ""
+
+#: includes/menu/help.php:27
+msgid "Ask any question"
+msgstr ""
+
+#: includes/menu/help.php:29
+msgid ""
+"Please feel free to contact for any question, ask via our forum <a href="
+"\"http://www.pickplugins.com/questions/\">http://www.pickplugins.com/"
+"questions/</a>"
+msgstr ""
+
+#: includes/menu/help.php:36
+msgid "Submit Reviews."
+msgstr ""
+
+#: includes/menu/help.php:37
+msgid ""
+"We are working hard to build some awesome plugins for you and spend thousand "
+"hour for plugins. we wish your three(3) minute by submitting five star "
+"reviews at wordpress.org. if you have any issue please submit at forum."
+msgstr ""
+
+#: includes/menu/help.php:49
+msgid "Watch video tutorial"
+msgstr ""
+
+#: includes/menu/welcome.php:43
+msgid "Options Saved"
+msgstr ""
+
+#: includes/menu/welcome.php:74
+msgid "Page Created."
+msgstr ""
+
+#: includes/menu/welcome.php:84
+msgid "Permissions Saved."
+msgstr ""
+
+#: includes/menu/welcome.php:93
+msgid "Ads Posting Saved."
+msgstr ""
+
+#: includes/menu/welcome.php:161
+msgid "Step 1: Save Options"
+msgstr ""
+
+#: includes/menu/welcome.php:164
+msgid "#General Options"
+msgstr ""
+
+#: includes/menu/welcome.php:181
+msgid "#Create Pages"
+msgstr ""
+
+#: includes/menu/welcome.php:183
+msgid "Step 2: Create Pages"
+msgstr ""
+
+#: includes/menu/welcome.php:206
+msgid "#Save Permissions"
+msgstr ""
+
+#: includes/menu/welcome.php:208
+msgid "Step 3: Save Permissions"
+msgstr ""
+
+#: includes/menu/welcome.php:245
+msgid "#Ads Posting"
+msgstr ""
+
+#: includes/menu/welcome.php:247
+msgid "Step 4: Ads Posting"
+msgstr ""
+
+#: includes/menu/welcome.php:273
+msgid "Nothing to Save"
+msgstr ""
+
+#: includes/my-account-registration.php:48
+msgid "Username"
+msgstr ""
+
+#: includes/my-account-registration.php:54
+msgid "Password"
+msgstr ""
+
+#: includes/my-account-registration.php:75
+msgid "Required form field is missing"
+msgstr ""
+
+#: includes/my-account-registration.php:79
+msgid "Username too short. At least 4 characters is required"
+msgstr ""
+
+#: includes/my-account-registration.php:83
+msgid "Sorry, that username already exists!"
+msgstr ""
+
+#: includes/my-account-registration.php:86
+msgid "Sorry, the username you entered is not valid"
+msgstr ""
+
+#: includes/my-account-registration.php:90
+msgid "Password length must be greater than 5"
+msgstr ""
+
+#: includes/my-account-registration.php:94
+msgid "Email is not valid"
+msgstr ""
+
+#: includes/my-account-registration.php:98
+msgid "Email Already in use"
+msgstr ""
+
+#: includes/my-account-registration.php:107
+msgid "ERROR"
+msgstr ""
+
+#: includes/my-account-registration.php:125
+msgid "Registration complete."
+msgstr ""
+
+#: includes/pickform/class-pickform.php:754
+msgid "Drop files here"
+msgstr ""
+
+#: includes/shortcodes/depricated/shortcodes-edit-ads.php:176
+msgid "Save Changed."
+msgstr ""
+
+#: includes/shortcodes/depricated/shortcodes-edit-ads.php:262
+msgid "Update Ads"
+msgstr ""
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:122
+msgid "is empty."
+msgstr ""
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:241
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:334
+#: includes/shortcodes/shortcodes-post-ads.php:322
+msgid "Ads Submitted."
+msgstr ""
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:242
+#: includes/shortcodes/shortcodes-post-ads.php:323
+msgid "Submission Status:"
+msgstr ""
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:335
+msgid "Submission Status: "
+msgstr ""
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:365
+msgid "reCAPTCHA is missing."
+msgstr ""
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:407
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:690
+#: includes/shortcodes/shortcodes-edit-ads.php:450
+#: includes/shortcodes/shortcodes-edit-ads.php:914
+#: includes/shortcodes/shortcodes-post-ads.php:406
+#: includes/shortcodes/shortcodes-post-ads.php:736
+msgid "Select Category"
+msgstr ""
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:432
+#: includes/shortcodes/shortcodes-edit-ads.php:489
+#: includes/shortcodes/shortcodes-post-ads.php:431
+msgid "No categories found."
+msgstr ""
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:444
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:516
+#: includes/shortcodes/shortcodes-edit-ads.php:549
+#: includes/shortcodes/shortcodes-edit-ads.php:624
+#: includes/shortcodes/shortcodes-edit-ads.php:646
+#: includes/shortcodes/shortcodes-post-ads.php:443
+#: includes/shortcodes/shortcodes-post-ads.php:515
+msgid "Next"
+msgstr ""
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:469
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:545
+#: includes/shortcodes/shortcodes-account.php:113
+#: includes/shortcodes/shortcodes-archive.php:331
+#: includes/shortcodes/shortcodes-edit-ads.php:576
+#: includes/shortcodes/shortcodes-edit-ads.php:693
+#: includes/shortcodes/shortcodes-post-ads.php:468
+#: includes/shortcodes/shortcodes-post-ads.php:544
+#: templates/single-ads-meta.php:41
+msgid "Category:"
+msgstr ""
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:476
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:479
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:488
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:495
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:551
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:554
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:566
+#: includes/shortcodes/shortcodes-edit-ads.php:583
+#: includes/shortcodes/shortcodes-edit-ads.php:586
+#: includes/shortcodes/shortcodes-edit-ads.php:595
+#: includes/shortcodes/shortcodes-edit-ads.php:602
+#: includes/shortcodes/shortcodes-edit-ads.php:699
+#: includes/shortcodes/shortcodes-edit-ads.php:705
+#: includes/shortcodes/shortcodes-edit-ads.php:717
+#: includes/shortcodes/shortcodes-post-ads.php:475
+#: includes/shortcodes/shortcodes-post-ads.php:478
+#: includes/shortcodes/shortcodes-post-ads.php:487
+#: includes/shortcodes/shortcodes-post-ads.php:494
+#: includes/shortcodes/shortcodes-post-ads.php:550
+#: includes/shortcodes/shortcodes-post-ads.php:556
+#: includes/shortcodes/shortcodes-post-ads.php:569
+msgid "Change Category"
+msgstr ""
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:488
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:495
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:566
+#: includes/shortcodes/shortcodes-edit-ads.php:595
+#: includes/shortcodes/shortcodes-edit-ads.php:602
+#: includes/shortcodes/shortcodes-edit-ads.php:717
+#: includes/shortcodes/shortcodes-post-ads.php:487
+#: includes/shortcodes/shortcodes-post-ads.php:494
+#: includes/shortcodes/shortcodes-post-ads.php:569
+msgid "Category missing"
+msgstr ""
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:500
+#: includes/shortcodes/shortcodes-edit-ads.php:607
+#: includes/shortcodes/shortcodes-post-ads.php:499
+msgid "Select Location:"
+msgstr ""
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:591
+#: includes/shortcodes/shortcodes-archive.php:89
+#: includes/shortcodes/shortcodes-edit-ads.php:749
+#: includes/shortcodes/shortcodes-post-ads.php:594
+msgid "Location:"
+msgstr ""
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:597
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:600
+#: includes/shortcodes/shortcodes-edit-ads.php:755
+#: includes/shortcodes/shortcodes-edit-ads.php:758
+#: includes/shortcodes/shortcodes-post-ads.php:600
+#: includes/shortcodes/shortcodes-post-ads.php:603
+msgid "Change Location"
+msgstr ""
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:600
+#: includes/shortcodes/shortcodes-edit-ads.php:758
+#: includes/shortcodes/shortcodes-post-ads.php:603
+msgid "Location missing"
+msgstr ""
+
+#: includes/shortcodes/depricated/shortcodes-post-ads.php:659
+#: includes/shortcodes/shortcodes-post-ads.php:713
+#: templates/form/form-post-ads.php:88
+msgid "Submit"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-account.php:105
+msgid "Delete"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-account.php:107
+msgid "Status:"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-account.php:108
+msgid "Published:"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-account.php:137
+#, php-format
+msgid "No ads found posted by you. <a href=\"%s\">create first Ads</a>"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-account.php:192
+msgid "Account info"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-account.php:224
+#: includes/shortcodes/shortcodes-account.php:354
+msgid "Edit Account"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-account.php:228
+msgid "My Ads"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-account.php:245
+msgid "Register"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-account.php:253
+msgid "Login"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-account.php:377
+msgid "Save Account"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-account.php:381
+msgid "Account saved"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-archive.php:64
+msgid "Keyword:"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-archive.php:125
+msgid "Featured:"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-archive.php:147
+msgid "Owner Type:"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-archive.php:167
+msgid "Listing for:"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-archive.php:228
+msgid "Price Range(Min-Max):"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-archive.php:253
+msgid "Date (dd/mm/yyyy):"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-archive.php:302
+msgid "Date Range (dd/mm/yyyy):"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-archive.php:522
+msgid "No ads found"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-edit-ads.php:91
+msgid "Sorry you are not authorized edit this ads."
+msgstr ""
+
+#: includes/shortcodes/shortcodes-edit-ads.php:154
+#: includes/shortcodes/shortcodes-edit-ads.php:159
+#: includes/shortcodes/shortcodes-edit-ads.php:166
+#: includes/shortcodes/shortcodes-edit-ads.php:174
+#: includes/shortcodes/shortcodes-post-ads.php:140
+#: includes/shortcodes/shortcodes-post-ads.php:147
+#: includes/shortcodes/shortcodes-post-ads.php:155
+#: includes/shortcodes/shortcodes-post-ads.php:164
+msgid "missing"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-edit-ads.php:357
+msgid "Ads Update Successful."
+msgstr ""
+
+#: includes/shortcodes/shortcodes-edit-ads.php:358
+msgid "Ads Status:"
+msgstr ""
+
+#: templates/single-ads-meta.php:25
+msgid "Posted by"
+msgstr ""
+
+#: templates/single-ads-meta.php:29
+msgid "For"
+msgstr ""
+
+#: templates/single-ads-meta.php:33
+msgid "Date:"
+msgstr ""

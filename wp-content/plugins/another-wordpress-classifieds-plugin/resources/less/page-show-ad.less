@@ -1,0 +1,143 @@
+#showawpcpadpage {
+    margin-top:10px;
+
+    label {
+        font-weight: bold;
+    }
+
+    .adtitle, .awpcp-title {
+        background:#eeeeee;
+        border-top:1px dotted #dddddd;
+        border-bottom:1px dotted #dddddd;
+        color:#333333;
+        font-weight:bold;
+        font-size:medium;
+        padding:10px;
+    }
+
+    .adbyline {
+        margin-top:5px;
+        padding:5px;
+
+        .adbylinelocation {
+            float:left;
+        }
+        .awpcpadviews .views {
+            font-weight:bold;
+            color:#ff0000;
+        }
+    }
+
+    .addetails {
+        padding:10px;
+        margin-top:20px;
+
+        .addetails_top {
+            margin:10px 0px 0px 0px;
+            width:95%;
+
+            .addetails_top_items {
+                float:left;
+                width:195px;
+                margin:0;
+            }
+            .addetails_top_image {
+                float:right;
+
+                img {
+                    margin: 0px 20px 0px 0px;
+                    padding: 2px;
+                    border: 1px solid #dddddd;
+                }
+                ul {
+                    margin:0;
+                    padding:0;
+                }
+            }
+        }
+    }
+}
+
+body, #showawpcpadpage {
+    .awpcp-ad-primary-image {
+        float: right;
+        text-align: center;
+
+        .thumbnail {
+            display: block;
+        }
+        .enlarge {
+            display: block;
+        }
+    }
+    .awpcp-listing-primary-image-thickbox-link {
+        position: relative;
+    }
+}
+
+.awpcp-subtitle {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.thumbshow {
+    background: #f2f2f2;
+    border: 1px solid #d3d3d3;
+    display: inline;
+    padding: 9px;
+}
+
+#displayimagethumbswrapper {
+    #displayimagethumbs {
+        ul {
+            list-style: none;
+
+            li {
+                float: left;
+                list-style: none;
+                margin: 10px;
+            }
+
+            .first-column {
+                clear: both;
+            }
+        }
+
+        a {
+            background: #f2f2f2;
+            border: 1px solid #d3d3d3;
+            display: inline-block;
+            padding: 9px;
+
+            .thumbshow {
+                border-color: #e7e7e7;
+                padding: 0;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    body, #showawpcpadpage .awpcp-ad-primary-image {
+        float: none;
+    }
+
+    #displayimagethumbswrapper #displayimagethumbs ul {
+        margin-left: 0;
+        margin-right: 0;
+
+        li {
+            margin-right: 0;
+            margin-left: 0;
+            margin-bottom: 0;
+            width: 50%;
+            text-align: center;
+        }
+
+        .first-column {
+            clear: none;
+        }
+    }
+}

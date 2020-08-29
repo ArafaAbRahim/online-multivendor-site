@@ -1,0 +1,96 @@
+.awpcp-terms-of-service-checkbox {
+    display: inline-block !important;
+    margin: 4px 0;
+    padding: 6px 10px 6px 30px;
+    position: relative;
+
+    input[type="checkbox"] {
+        font-size: 16px;
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        margin-top: -7px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .awpcp-terms-of-service-checkbox {
+        display: block !important;
+    }
+}
+
+/* Upload Images Step */
+
+#classiwrapper .upload-conditions, .upload-conditions {
+    background: #EEE;
+    margin-bottom: 10px;
+    padding: 4px 10px;
+
+     li {
+        float: left;
+        width: 50%;
+    }
+}
+
+#classiwrapper .uploadform, .uploadform {
+    float: left;
+    width: 100%;
+
+    .image-upload-field, .upload-field-actions {
+        float: left;
+    }
+
+    .upload-field-actions {
+        padding-bottom: 5px;
+        margin-bottom: 0;
+
+        li {
+            background: transparent;
+            list-style-type: none;
+            margin: 0;
+            padding: 0 7.5px;
+            min-width: 0;
+            width: auto;
+
+            a, label {
+                background: @enable_image_icon_url center center no-repeat;
+                cursor: pointer;
+                display: block;
+                height: 22px;
+                width: 25px;
+            }
+            a:hover, label:hover {
+                background-color: #C6C6C6;
+            }
+
+            span {
+                display: none;
+            }
+        }
+
+        .primary a, .primary label {
+            background-image: @primary_image_icon_url;
+        }
+        .not-primary a, .not-primary label {
+            background-image: @not_primary_image_icon_url;
+        }
+        .primary input, .not-primary input {
+            display: none;
+        }
+
+        .label {
+            color: #333;
+            font-size: 0.9em;
+            padding-top: 1px;
+            padding-right: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #classiwrapper .uploadform, .uploadform {
+        .image-upload-field {
+            width: 80%;
+        }
+    }
+}

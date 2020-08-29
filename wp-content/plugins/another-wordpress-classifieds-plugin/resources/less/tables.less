@@ -1,0 +1,81 @@
+.awpcp-table {
+    border: none;
+    margin: 0 0 1.625em;
+    width: 100%;
+
+    th, td {
+        padding: 6px;
+        text-align: left;
+    }
+    th {
+        background: #EFEFEF;
+        font-weight: bold;
+    }
+
+    td {
+        border-top: 1px solid #DDDDDD;
+    }
+}
+
+/* copied from http://elvery.net/demo/responsive-tables/#flip-scroll */
+@media only screen and (max-width: 800px) {
+
+    table.awpcp-table, /* to avoid specificity problems */
+    .awpcp-table, {
+        /* Force table to not be like tables anymore */
+        table, thead, tbody, th, td, tr {
+            display: block;
+        }
+
+        th {
+            border: none;
+        }
+
+        /* Hide table headers (but not display: none;, for accessibility) */
+        thead tr {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+
+        tbody tr th {
+            padding-left: 10px;
+        }
+
+        tr {
+            border: 1px solid #ccc;
+
+            td {
+                /* Behave  like a "row" */
+                border: none;
+                border-bottom: 1px solid #eee;
+                position: relative;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                padding-left: 60% !important;
+                white-space: normal;
+                text-align:left;
+            }
+
+            td:before {
+                /* Now like a table header */
+                position: absolute;
+                /* Top/left values mimic padding */
+                top: 6px;
+                left: 6px;
+                width: 45%;
+                padding-right: 10px;
+                white-space: nowrap;
+                text-align:left;
+                font-weight: bold;
+            }
+
+            /*
+            Label the data
+            */
+            td:before {
+                content: attr(data-title);
+            }
+        }
+    }
+}

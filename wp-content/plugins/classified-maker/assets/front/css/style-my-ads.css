@@ -1,0 +1,52 @@
+
+
+
+.my-ads {
+
+}
+
+
+.my-ads .single {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.my-ads .single .title {
+  font-size: 14px;
+}
+
+.my-ads .single .delete-ads {
+  background: #ff5d3d none repeat scroll 0 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.my-ads .single .edit-link {
+  background: #37cd9d none repeat scroll 0 0;
+  color: #fff;
+  cursor: pointer;
+}
+.my-ads .single .edit-link a{
+text-decoration: none;
+  color: #fff;
+ 
+}
+
+
+
+.my-ads .meta {
+  font-size: 13px;
+  margin: 10px 0 0;
+}
+
+.my-ads .meta span {
+  margin: 0 5px;
+  padding: 0 7px;
+}
+
+
+
+
+
+

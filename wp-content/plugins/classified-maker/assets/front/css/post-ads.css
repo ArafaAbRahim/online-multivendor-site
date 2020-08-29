@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* CSS Document */
+
+.post-ads{}
+
+.post-ads .editing-title {
+  background: #f2f2f2 none repeat scroll 0 0;
+  font-size: 13px;
+  padding: 4px 6px;
+}
+
+
+.post-ads #post_title {
+  width: 80%;
+}
+
+.post-ads .post-status {
+
+}
+
+
+.post-ads .post-status span {
+  display: block;
+  font-size: 12px;
+}
+.post-ads .post-status .success{
+	  color: #2cc88b;
+	}
+.post-ads .post-status .failed {
+  color: #dc5632;
+}
+
+
+.post-ads .ads-cats {
+  display: inline-block;
+  max-width: 250px;
+  vertical-align: top;
+}
+
+
+
+
+.post-ads .ads-cats li, .post-ads .ads-child-cats li {
+  border-top: 1px solid #ddd;
+  cursor: pointer;
+  list-style: outside none none;
+  margin: 0;
+  padding: 5px 10px;
+  position: relative;
+  width: 250px;
+}
+
+.post-ads .ads-cats li.active, .post-ads .ads-child-cats li.active {
+  background: #f0f0f0 none repeat scroll 0 0;
+}
+
+.post-ads .ads-cats li .fa, .post-ads .ads-child-cats li .fa {
+  display: none;
+}
+
+.post-ads .ads-cats li.active .fa, .post-ads .ads-child-cats li.active .fa {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 31%;
+}
+
+
+
+.post-ads .ads-child-cats {
+  display: inline-block;
+  margin: 0 0 0 50px;
+  vertical-align: top;
+  width: 300px;
+}
+
+
+
+.post-ads .next-step-3 , .post-ads .next-step-2, .post-ads .next-step-preview{
+  background: #84cbfd none repeat scroll 0 0;
+  border: 1px solid #47b1fb;
+  color: #fff;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 3px 15px;
+  text-decoration: none;
+}
+.post-ads .next-step-3:visited, .post-ads .next-step-2:visited, .post-ads .next-step-preview:visited{
+color: #fff;
+	
+	}
+
+.post-ads .meta-data {
+
+}
+
+.post-ads .option input[type="text"] {
+  width: 70%;
+}
+
+
+.post-ads .option {
+  margin: 40px 0;
+}
+
+
+.post-ads  .option .option-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.post-ads  .option .option-details {
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+
+.post-ads  .option #file-upload-container {
+  border: 1px dashed #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.post-ads  .option #file-uploader {
+  background: #84cbfd none repeat scroll 0 0;
+  border: 1px solid #47b1fb;
+  color: #fff;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 3px 15px;
+  text-decoration: none;
+}
+
+.post-ads  .option .reset {
+  background: #84cbfd none repeat scroll 0 0;
+  border: 1px solid #47b1fb;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 3px 15px;
+  text-decoration: none;
+}
+
+
+.post-ads  .option #file-upload-container .file {
+  background: #d6eeff none repeat scroll 0 0;
+  border: 1px solid #84cbfd;
+  margin: 10px 0;
+  padding: 10px;
+  position: relative;
+  text-align: left;
+}
+
+.post-ads .option #file-upload-container .file .preview {
+  display: inline-block;
+  height: auto;
+  margin-right: 10px;
+  overflow: hidden;
+  vertical-align: top;
+  width: 100px;
+}
+
+.post-ads  .option #file-upload-container .file .preview img {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.post-ads .option #file-upload-container .file .name {
+  display: inline-block;
+}
+
+
+.post-ads .option #file-upload-container .file .remove {
+  background: #fd6022 none repeat scroll 0 0;
+  color: #fff;
+  cursor: pointer;
+  padding: 0 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.post-ads .option #file-upload-container .file .move {
+  background: #fd6022 none repeat scroll 0 0;
+  color: #fff;
+  cursor: move;
+  padding: 0 10px;
+  position: absolute;
+  right: 36px;
+  top: 0;
+}
+
+
+
+
+
+
+
+
+
+.post-ads .option .plupload-upload-ui{
+border: 1px solid rgba(0,0,0,0);
+}
+
+.post-ads .option .plupload-upload-ui.drag-drop.drag-over{
+border: 1px dashed #999;
+}
+
+
+
+
+
+.post-ads .option .plupload-upload-ui .drag-drop-area {
+  background: #f8f8f8 none repeat scroll 0 0;
+  padding: 10px 20px;
+  text-align: center;
+  
+}
+
+
+.post-ads .option .plupload-upload-ui .drag-drop-inside{
+
+}
+
+.post-ads .option .plupload-upload-ui .drag-drop-inside p {
+  color: #999;
+}
+
+.post-ads .option .plupload-upload-ui .drag-drop-buttons{
+
+}
+
+.post-ads .option .plupload-upload-ui #plupload-browse-button{
+
+}
+
+.post-ads .option .plupload-upload-ui .drag-drop-inside .item {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 7px 10px -4px #999;
+  cursor: move;
+  display: inline-block;
+  height: 130px;
+  margin: 5px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  vertical-align: top;
+  width: 130px;
+}
+
+.post-ads .option .plupload-upload-ui .drag-drop-inside .item img {
+  border-radius: 0;
+  box-shadow: none;
+  height: auto;
+  max-width: 100%;
+}
+
+.post-ads .option .plupload-upload-ui .drag-drop-inside .item .delete {
+  background: #fd6022 none repeat scroll 0 0;
+  bottom: 0;
+  color: #fff;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+.classified-maker.my-account{}
+
+
+.classified-maker.my-account .register {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
+
+.classified-maker.my-account .login {
+  display: inline-block;
+  width: 50%;
+}
+
+
+.classified-maker.my-account input[type="text"],  .classified-maker.my-account input[type="password"]{
+  border-radius: 0;
+}
+
+
+.classified-maker.my-account input[type="submit"] {
+
+}
+
+
+.classified-maker.my-account .meta {
+  margin: 20px 0;
+}
+
+.classified-maker.my-account .meta .title {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+
+.classified-maker.my-account .meta .value{
+
+}
+
+
+/*edit-account*/
+
+.classified-maker.edit-account{}
+
+.classified-maker.edit-account .meta-data{}
+
+.classified-maker.edit-account .meta-data .option-box {
+  margin: 25px 0;
+}
+.classified-maker.edit-account .meta-data .option-box .option-title {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.classified-maker.edit-account .meta-data .option-box .option-details {
+  margin-bottom: 10px;
+}
+
+.classified-maker.edit-account .repatble{}
+
+.classified-maker.edit-account .repatble .single {
+  background: rgba(0, 0, 0, 0) url("images/move.png") no-repeat scroll 0 0;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.classified-maker.edit-account .message {
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
